@@ -19,7 +19,7 @@ I give courses and TDs of *deep learning* at [CentraleSupelec](https://www.centr
 Before, I have given courses of *computer vision* at Centrale Paris (2016), TDs of *NLP* at [INSTN](https://instn.cea.fr/en/) (2007-2009), courses of *video compression* at [Dublin City University](https://www.dcu.ie/) during my post-doc (2005-2006) and various TDs at [Université Joseph Fourier](https://www.univ-grenoble-alpes.fr/) and [INP Grenoble](https://www.grenoble-inp.fr/en) during my thesis (2001-2003).
 
 ## Contact 
-I am physicaly located at [Nano Innov](https://list.cea.fr/app/uploads/2022/04/Coming_to_Nano_INNOV.pdf). To get here, I'll need to give your name to reception first (the appointment must be planned in advance).. On the day of your visit, please bring your passport or identity card. 
+I am physicaly located at [Nano Innov](https://list.cea.fr/app/uploads/2022/04/Coming_to_Nano_INNOV.pdf). To get here, I'll need to give your name to reception first (the appointment must be planned in advance). On the day of your visit, please bring your passport or identity card. 
 
 My mailing adress is: CEA Saclay - Nano-INNOV, DRT/LIST/DIASI/SIALV/LASTI, Bat 861 - PC 184 - F91191 Gif-sur-Yvette Cedex, France.
 
