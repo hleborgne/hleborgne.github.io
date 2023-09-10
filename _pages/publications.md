@@ -5,12 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  A quite comple list can be found on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+A quite comple list can be found on <u><a href="https://scholar.google.com/citations?user=ZlKEgWYAAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+The full and/or selected list will be reported here soon
