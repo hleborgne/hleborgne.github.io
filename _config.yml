@@ -86,7 +86,7 @@ author:
   location         : "Saclay, France"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : https://scholar.google.com/citations?user=ZlKEgWYAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=ZlKEgWYAAAAJ&hl=en"
   email            : herve.le-borgne@the_acronym_for_my_employer_in_3_letters.fr
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
