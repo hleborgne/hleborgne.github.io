@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
 ## Deep learning -- *CentraleSupélec, Université Paris-Saclay*
 I give this course since 2017. Last update of this page: Sept. 2023.
 ### Resources
