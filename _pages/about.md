@@ -1,7 +1,5 @@
 ---
 permalink: /
-title: "Hervé Le Borgne biography"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
