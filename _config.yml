@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Hervé Le Borgne"
   avatar           : "hlb.png"
   bio              : "Researcher at CEA LIST"
   location         : "Saclay, France"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : https://scholar.google.com/citations?user=ZlKEgWYAAAAJ&hl=en"
-  email            :
+  email            : herve.le-borgne@the_acronym_for_my_employer_in_3_letters.fr
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/herveleborgne/"
   orcid            : "https://orcid.org/0000-0003-0520-8436"
   pinterest        :
   soundcloud       :
