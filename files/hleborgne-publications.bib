@@ -91,7 +91,7 @@
 }
 
 @inproceedings{lerner2022viquae,
-  author    = {Lerner, Paul and Ferret, Olivier and Guinaudeau, Camille and Le Borgne, Herv\'{e} and Besan\c{c}on, Romaric and Moreno, Jose G. and Lov\'{o}n Melgarejo, Jes\'{u}s},
+  author    = {Lerner, Paul and Ferret, Olivier and Guinaudeau, Camille and {Le Borgne}, Herv\'{e} and Besan\c{c}on, Romaric and Moreno, Jose G. and Lov\'{o}n Melgarejo, Jes\'{u}s},
   title     = {ViQuAE, a Dataset for Knowledge-Based Visual Question Answering about Named Entities},
   year      = {2022},
   isbn      = {9781450387323},
@@ -126,78 +126,78 @@
 }
 
 @incollection{lecacheux21gzsl,
-  title={Zero-shot Learning with Deep Neural Networks for Object Recognition},
-  chapter = {6},
-  author={Le Cacheux, Yannick and Le Borgne, Herv{\'e} and Crucianu, Michel},
-  booktitle={Multi-faceted Deep Learning},
-  pages={273--288},
-  year = {2021},
-  editor = {J. Benois Pineau and A. Zemmari},
-  publisher={Springer},
-  doi = {10.1007/978-3-030-74478-6_6},
-  url_PDF = {https://arxiv.org/pdf/2102.03137.pdf},
-  abstract = {Zero-shot learning deals with the ability to recognize objects without any visual training sample. To counterbalance this lack of visual data, each class to recognize is associated with a semantic prototype that reflects the essential features of the object. The general approach is to learn a mapping from visual data to semantic prototypes, then use it at inference to classify visual samples from the class prototypes only. Different settings of this general configuration can be considered depending on the use case of interest, in particular whether one only wants to classify objects that have not been employed to learn the mapping or whether one can use unlabelled visual examples to learn the mapping. This chapter presents a review of the approaches based on deep neural networks to tackle the ZSL problem. We highlight findings that had a large impact on the evolution of this domain and list its current challenges.},
-  keywords = {book-chap,zero-shot-learning}
+  title     = {Zero-shot Learning with Deep Neural Networks for Object Recognition},
+  chapter   = {6},
+  author    = {Le Cacheux, Yannick and {Le Borgne}, Herv{\'e} and Crucianu, Michel},
+  booktitle = {Multi-faceted Deep Learning},
+  pages     = {273--288},
+  year      = {2021},
+  editor    = {J. Benois Pineau and A. Zemmari},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-030-74478-6_6},
+  url_PDF   = {https://arxiv.org/pdf/2102.03137.pdf},
+  abstract  = {Zero-shot learning deals with the ability to recognize objects without any visual training sample. To counterbalance this lack of visual data, each class to recognize is associated with a semantic prototype that reflects the essential features of the object. The general approach is to learn a mapping from visual data to semantic prototypes, then use it at inference to classify visual samples from the class prototypes only. Different settings of this general configuration can be considered depending on the use case of interest, in particular whether one only wants to classify objects that have not been employed to learn the mapping or whether one can use unlabelled visual examples to learn the mapping. This chapter presents a review of the approaches based on deep neural networks to tackle the ZSL problem. We highlight findings that had a large impact on the evolution of this domain and list its current challenges.},
+  keywords  = {book-chap,zero-shot-learning}
 }
 
 @inproceedings{plumerault20icpr,
-  title = {AVAE: Adversarial Variational Auto Encoder},
-  author={Antoine Plumerault and Herv{\'e} {Le Borgne} and C{\'e}line Hudelot},
-  booktitle="International Conference on Pattern Recognition (ICPR)",
-  year={2021},
-  url_PDF = {https://arxiv.org/pdf/2012.11551.pdf},
-  abstract = {Among the wide variety of image generative models, two models stand out: Variational Auto Encoders (VAE) and Generative Adversarial Networks (GAN). GANs can produce realistic images, but they suffer from mode collapse and do not provide simple ways to get the latent representation of an image. On the other hand, VAEs do not have these problems, but they often generate images less realistic than GANs. In this article, we explain that this lack of realism is partially due to a common underestimation of the natural image manifold dimensionality. To solve this issue we introduce a new framework that combines VAE and GAN in a novel and complementary way to produce an auto-encoding model that keeps VAEs properties while generating images of GAN-quality. We evaluate our approach both qualitatively and quantitatively on five image datasets.},
-  keywords = {conf-int,generative-models}
+  title     = {AVAE: Adversarial Variational Auto Encoder},
+  author    = {Antoine Plumerault and Herv{\'e} {Le Borgne} and C{\'e}line Hudelot},
+  booktitle = {International Conference on Pattern Recognition (ICPR)},
+  year      = {2021},
+  url_PDF   = {https://arxiv.org/pdf/2012.11551.pdf},
+  abstract  = {Among the wide variety of image generative models, two models stand out: Variational Auto Encoders (VAE) and Generative Adversarial Networks (GAN). GANs can produce realistic images, but they suffer from mode collapse and do not provide simple ways to get the latent representation of an image. On the other hand, VAEs do not have these problems, but they often generate images less realistic than GANs. In this article, we explain that this lack of realism is partially due to a common underestimation of the natural image manifold dimensionality. To solve this issue we introduce a new framework that combines VAE and GAN in a novel and complementary way to produce an auto-encoding model that keeps VAEs properties while generating images of GAN-quality. We evaluate our approach both qualitatively and quantitatively on five image datasets.},
+  keywords  = {conf-int,generative-models}
 }
 
 @inproceedings{bojko20icpr,
-  title = {Learning to Segment Dynamic Objects Using SLAM Outliers},
-  author={Adrian Bojko and Romain Dupont and Mohamed Tamaazousti and Herv{\'e} {Le Borgne}},
+  title     = {Learning to Segment Dynamic Objects Using SLAM Outliers},
+  author    = {Adrian Bojko and Romain Dupont and Mohamed Tamaazousti and Herv{\'e} {Le Borgne}},
   booktitle = "International Conference on Pattern Recognition (ICPR)",
-  pages           = {9780--9787},
-  doi             = {10.1109/ICPR48806.2021.9412341},
-  url_PDF = {https://arxiv.org/pdf/2011.06259},
-  year={2021},
-  abstract = {We present a method to automatically learn to segment dynamic objects using SLAM outliers. It requires only one monocular sequence per dynamic object for training and consists in localizing dynamic objects using SLAM outliers, creating their masks, and using these masks to train a semantic segmentation network. We integrate the trained network in ORB-SLAM 2 and LDSO. At runtime we remove features on dynamic objects, making the SLAM unaffected by them. We also propose a new stereo dataset and new metrics to evaluate SLAM robustness. Our dataset includes consensus inversions, i.e., situations where the SLAM uses more features on dynamic objects that on the static background. Consensus inversions are challenging for SLAM as they may cause major SLAM failures. Our approach performs better than the State-of-the-Art on the TUM RGB-D dataset in monocular mode and on our dataset in both monocular and stereo modes. },
-  keywords = {conf-int}
+  pages     = {9780--9787},
+  doi       = {10.1109/ICPR48806.2021.9412341},
+  url_PDF   = {https://arxiv.org/pdf/2011.06259},
+  year      = {2021},
+  abstract  = {We present a method to automatically learn to segment dynamic objects using SLAM outliers. It requires only one monocular sequence per dynamic object for training and consists in localizing dynamic objects using SLAM outliers, creating their masks, and using these masks to train a semantic segmentation network. We integrate the trained network in ORB-SLAM 2 and LDSO. At runtime we remove features on dynamic objects, making the SLAM unaffected by them. We also propose a new stereo dataset and new metrics to evaluate SLAM robustness. Our dataset includes consensus inversions, i.e., situations where the SLAM uses more features on dynamic objects that on the static background. Consensus inversions are challenging for SLAM as they may cause major SLAM failures. Our approach performs better than the State-of-the-Art on the TUM RGB-D dataset in monocular mode and on our dataset in both monocular and stereo modes. },
+  keywords  = {conf-int}
 }
 
 @inproceedings{lecacheux20taskcv,
- author = {Le Cacheux, Yannick and Le Borgne, Herv{\'e} and Crucianu, Michel},
- title = {Using Sentences as Semantic Representations in Large Scale Zero-Shot Learning},
- booktitle = {TASK-CV Workshop - ECCV 2020},
- year = {2020},
- address = {Online},
- doi = {10.1007/978-3-030-66415-2_42},
- url_PDF = {https://arxiv.org/pdf/2010.02959.pdf},
- abstract = {Zero-shot learning aims to recognize instances of unseen classes, for which no visual instance is available during training, by learning multimodal relations between samples from seen classes and corresponding class semantic representations. These class representations usually consist of either attributes, which do not scale well to large datasets, or word embeddings, which lead to poorer performance. A good trade-off could be to employ short sentences in natural language as class descriptions. We explore different solutions to use such short descriptions in a ZSL setting and show that while simple methods cannot achieve very good results with sentences alone, a combination of usual word embeddings and sentences can significantly outperform current state-of-the-art. },
- keywords = {conf-int,zero-shot-learning}
+ author     = {Le Cacheux, Yannick and {Le Borgne}, Herv{\'e} and Crucianu, Michel},
+ title      = {Using Sentences as Semantic Representations in Large Scale Zero-Shot Learning},
+ booktitle  = {TASK-CV Workshop - ECCV 2020},
+ year       = {2020},
+ address    = {Online},
+ doi        = {10.1007/978-3-030-66415-2_42},
+ url_PDF    = {https://arxiv.org/pdf/2010.02959.pdf},
+ abstract   = {Zero-shot learning aims to recognize instances of unseen classes, for which no visual instance is available during training, by learning multimodal relations between samples from seen classes and corresponding class semantic representations. These class representations usually consist of either attributes, which do not scale well to large datasets, or word embeddings, which lead to poorer performance. A good trade-off could be to employ short sentences in natural language as class descriptions. We explore different solutions to use such short descriptions in a ZSL setting and show that while simple methods cannot achieve very good results with sentences alone, a combination of usual word embeddings and sentences can significantly outperform current state-of-the-art. },
+ keywords   = {conf-int,zero-shot-learning}
 }
 
 @inproceedings{lecacheux20accv,
-  author = {Le Cacheux, Yannick and Popescu, Adrian and  Le Borgne, Herv{\'e}},
-  title = {Webly Supervised Semantic Embeddings for Large Scale Zero-Shot Learning},
+  author    = {Le Cacheux, Yannick and Popescu, Adrian and  {Le Borgne}, Herv{\'e}},
+  title     = {Webly Supervised Semantic Embeddings for Large Scale Zero-Shot Learning},
   booktitle = "Asian Conference on Computer Vision (ACCV)",
-  year = {2020},
-  url = {https://openaccess.thecvf.com/content/ACCV2020/papers/Le_Cacheux_Webly_Supervised_Semantic_Embeddings_for_Large_Scale_Zero-Shot_Learning_ACCV_2020_paper.pdf},
-  keywords = {conf-int,zero-shot-learning}
+  year      = {2020},
+  url       = {https://openaccess.thecvf.com/content/ACCV2020/papers/Le_Cacheux_Webly_Supervised_Semantic_Embeddings_for_Large_Scale_Zero-Shot_Learning_ACCV_2020_paper.pdf},
+  keywords  = {conf-int,zero-shot-learning}
 }
 
 @inproceedings{plumerault2020iclr,
-title={Controlling generative models with continuous factors of variations},
-author={Antoine Plumerault and Herv{\'e} {Le Borgne} and C{\'e}line Hudelot},
-booktitle={International Conference on Pattern Recognition (ICPR)},
-year={2020},
-url={https://openreview.net/forum?id=H1laeJrKDB},
-url_PDF  = {https://arxiv.org/pdf/2001.10238.pdf},
-url_Code = {https://github.com/AntoinePlumerault/Controlling-generative-models-with-continuous-factors-of-variations},
-abstract = {Recent deep generative models are able to provide photo-realistic images as well as visual or textual content embeddings useful to address various tasks of computer vision and natural language processing. Their usefulness is nevertheless often limited by the lack of control over the generative process or the poor understanding of the learned representation. To overcome these major issues, very recent work has shown the interest of studying the semantics of the latent space of generative models. In this paper, we propose to advance on the interpretability of the latent space of generative models by introducing a new method to find meaningful directions in the latent space of any generative model along which we can move to control precisely specific properties of the generated image like the position or scale of the object in the image. Our method does not require human annotations and is particularly well suited for the search of directions encoding simple transformations of the generated image, such as translation, zoom or color variations. We demonstrate the effectiveness of our method qualitatively and quantitatively, both for GANs and variational auto-encoders.},
-keywords = {conf-int,generative-models}
+title       = {Controlling generative models with continuous factors of variations},
+author      = {Antoine Plumerault and Herv{\'e} {Le Borgne} and C{\'e}line Hudelot},
+booktitle   = {International Conference on Pattern Recognition (ICPR)},
+year        = {2020},
+url         = {https://openreview.net/forum?id=H1laeJrKDB},
+url_PDF     = {https://arxiv.org/pdf/2001.10238.pdf},
+url_Code    = {https://github.com/AntoinePlumerault/Controlling-generative-models-with-continuous-factors-of-variations},
+abstract    = {Recent deep generative models are able to provide photo-realistic images as well as visual or textual content embeddings useful to address various tasks of computer vision and natural language processing. Their usefulness is nevertheless often limited by the lack of control over the generative process or the poor understanding of the learned representation. To overcome these major issues, very recent work has shown the interest of studying the semantics of the latent space of generative models. In this paper, we propose to advance on the interpretability of the latent space of generative models by introducing a new method to find meaningful directions in the latent space of any generative model along which we can move to control precisely specific properties of the generated image like the position or scale of the object in the image. Our method does not require human annotations and is particularly well suited for the search of directions encoding simple transformations of the generated image, such as translation, zoom or color variations. We demonstrate the effectiveness of our method qualitatively and quantitatively, both for GANs and variational auto-encoders.},
+keywords    = {conf-int,generative-models}
 }
 
 @inproceedings{adjali2020ecir,
     title={Multimodal Entity Linking for Tweets},
-    author={Adjali, Omar and Besancon, romaric and Ferret, olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
+    author={Adjali, Omar and Besancon, Romaric and Ferret, Olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
     booktitle=ECIR,
     year={2020},
     month={4},
@@ -212,7 +212,7 @@ keywords = {conf-int,generative-models}
 
 @inproceedings{adjali2020lrec,
     title={Building a Multimodal Entity Linking Dataset From Tweets},
-    author={Adjali, Omar and Besancon, romaric and Ferret, olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
+    author={Adjali, Omar and Besancon, Romaric and Ferret, Olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
     booktitle={International Conference on Language Resources and Evaluation (LREC)},
     year={2020},
     month={5},
