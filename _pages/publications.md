@@ -8,9 +8,9 @@ classes: wide
 
 A quite comple list can be found on <u><a href="https://scholar.google.com/citations?user=ZlKEgWYAAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
-The full and/or selected list will be reported here soon
+Here is a selected list (in construction):
 
-<script src="https://bibbase.org/show?bib=https://hleborgne.github.io/files/hleborgne-publications.bib&jsonp=1&nocache=1&theme=default"></script>
+<script src="https://bibbase.org/show?bib=https://hleborgne.github.io/files/hleborgne-publications.bib&jsonp=1&nocache=1&theme=default&authorFirst=1"></script>
 
 {% include base_path %}
 

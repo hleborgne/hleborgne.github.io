@@ -25,78 +25,181 @@
 @string{arXiv  = "arXiv"}
 
 @unpublished{grimal2023tiam,
-      title={TIAM -- A Metric for Evaluating Alignment in Text-to-Image Generation}, 
-      author={Paul Grimal and Hervé {Le Borgne} and Olivier Ferret and Julien Tourille},
-      year={2023},
-      journal={arXiv 2307.05134},
-      note={Preprint.},
-      url = "https://arxiv.org/abs/2307.05134",
-      url_PDF = "https://arxiv.org/pdf/2307.05134.pdf",
-      abstract = "The progress in the generation of synthetic images has made it crucial to assess their quality. While several metrics have been proposed to assess the rendering of images, it is crucial for Text-to-Image (T2I) models, which generate images based on a prompt, to consider additional aspects such as to which extent the generated image matches the important content of the prompt. Moreover, although the generated images usually result from a random starting point, the influence of this one is generally not considered. In this article, we propose a new metric based on prompt templates to study the alignment between the content specified in the prompt and the corresponding generated images. It allows us to better characterize the alignment in terms of the type of the specified objects, their number, and their color. We conducted a study on several recent T2I models about various aspects. An additional interesting result we obtained with our approach is that image quality can vary drastically depending on the latent noise used as a seed for the images. We also quantify the influence of the number of concepts in the prompt, their order as well as their (color) attributes. Finally, our method allows us to identify some latent seeds that produce better images than others, opening novel directions of research on this understudied topic."
+  title     = {TIAM -- A Metric for Evaluating Alignment in Text-to-Image Generation}, 
+  author    = {Paul Grimal and Hervé {Le Borgne} and Olivier Ferret and Julien Tourille},
+  year      = {2023},
+  journal   = {arXiv 2307.05134},
+  note      = {Preprint. arXiv 2307.05134},
+  url       = {https://arxiv.org/abs/2307.05134},
+  url_PDF   = {https://arxiv.org/pdf/2307.05134.pdf},
+  url_Code  = {https://github.com/grimalpaul/tiam},
+  abstract  = {The progress in the generation of synthetic images has made it crucial to assess their quality. While several metrics have been proposed to assess the rendering of images, it is crucial for Text-to-Image (T2I) models, which generate images based on a prompt, to consider additional aspects such as to which extent the generated image matches the important content of the prompt. Moreover, although the generated images usually result from a random starting point, the influence of this one is generally not considered. In this article, we propose a new metric based on prompt templates to study the alignment between the content specified in the prompt and the corresponding generated images. It allows us to better characterize the alignment in terms of the type of the specified objects, their number, and their color. We conducted a study on several recent T2I models about various aspects. An additional interesting result we obtained with our approach is that image quality can vary drastically depending on the latent noise used as a seed for the images. We also quantify the influence of the number of concepts in the prompt, their order as well as their (color) attributes. Finally, our method allows us to identify some latent seeds that produce better images than others, opening novel directions of research on this understudied topic.},
+  keywords  = {generative-models}
 }
 
 @inproceedings{karaliolios2023gpl,
-  author          = {Nikolaos Karaliolios and Florian Chabot and Camille Dupont and Hervé {Le Borgne} and Romaric Audigier and Quoc-Cuong Pham},
-  booktitle       = ICIP,
-  title           = {Generalized pseudo-labeling in consistency regularization for semi-supervised learning},
-  year            = {2023},
-  keywords = {conf-int}
+  author    = {Nikolaos Karaliolios and Florian Chabot and Camille Dupont and Herv{\'{e}} {Le Borgne} and Romaric Audigier and Quoc-Cuong Pham},
+  booktitle = "International Conference on Image Processing (ICIP)",
+  title     = {Generalized pseudo-labeling in consistency regularization for semi-supervised learning},
+  year      = {2023},
+  keywords  = {conf-int}
 }
 
 @inproceedings{doubinsky2023wasserstein,
-  title = {Wasserstein loss for Semantic Editing in the Latent Space of GANs},
+  title     = {Wasserstein loss for Semantic Editing in the Latent Space of GANs},
   booktitle = {International Conference on Content-Based Multimedia Indexing},
-  year = {2023},
-  author = {Perla Doubinsky and Nicolas Audebert and Michel Crucianu and Hervé {Le Borgne}},
+  year      = {2023},
+  author    = {Perla Doubinsky and Nicolas Audebert and Michel Crucianu and Herv{\'{e}} {Le Borgne}},
   url_arXiv = {https://arxiv.org/abs/2304.10508},
-  url_PDF = {https://arxiv.org/pdf/2304.10508.pdf},
-  abstract = {The latent space of GANs contains rich semantics reflecting the training data. Different methods propose to learn edits in latent space corresponding to semantic attributes, thus allowing to modify generated images. Most supervised methods rely on the guidance of classifiers to produce such edits. However, classifiers can lead to out-of-distribution regions and be fooled by adversarial samples. We propose an alternative formulation based on the Wasserstein loss that avoids such problems, while maintaining performance on-par with classifier-based approaches. We demonstrate the effectiveness of our method on two datasets (digits and faces) using StyleGAN2.},
-  keywords = {conf-int}
+  url_PDF   = {https://arxiv.org/pdf/2304.10508.pdf},
+  abstract  = {The latent space of GANs contains rich semantics reflecting the training data. Different methods propose to learn edits in latent space corresponding to semantic attributes, thus allowing to modify generated images. Most supervised methods rely on the guidance of classifiers to produce such edits. However, classifiers can lead to out-of-distribution regions and be fooled by adversarial samples. We propose an alternative formulation based on the Wasserstein loss that avoids such problems, while maintaining performance on-par with classifier-based approaches. We demonstrate the effectiveness of our method on two datasets (digits and faces) using StyleGAN2.},
+  keywords  = {conf-int,generative-models}
 }
 @article{hanouti2023lsa_zsl,
-  author    = {Hanouti, Celina and
-               {Le Borgne}, Herv{\'{e}} },
+  author    = {Hanouti, Celina and {Le Borgne}, Herv{\'{e}} },
   title     = {Learning Semantic Ambiguities for Zero-Shot Learning},
   journal   = {Multimedia Tools and Applications},
-  volume     = {},
-  pages      = {},
-  year       = {2023},
-  doi        = {10.1007/s11042-023-14877-1},
-  url_arXiv  = "https://arxiv.org/abs/2201.01823",
-  url_PDF    = "https://arxiv.org/pdf/2201.01823.pdf",
-  url        = "https://link.springer.com/article/10.1007/s11042-023-14877-1",
-  abstract   = "Zero-shot learning (ZSL) aims at recognizing classes for which no visual sample is available at training time. To address this issue, one can rely on a semantic description of each class. A typical ZSL model learns a mapping between the visual samples of seen classes and the corresponding semantic descriptions, in order to do the same on unseen classes at test time. State of the art approaches rely on generative models that synthesize visual features from the prototype of a class, such that a classifier can then be learned in a supervised manner. However, these approaches are usually biased towards seen classes whose visual instances are the only one that can be matched to a given class prototype. We propose a regularization method that can be applied to any conditional generative-based ZSL method, by leveraging only the semantic class prototypes. It learns to synthesize discriminative features for possible semantic description that are not available at training time, that is the unseen ones. The approach is evaluated for ZSL and GZSL on four datasets commonly used in the literature, either in inductive and transductive settings, with results on-par or above state of the art approaches.",
-  keywords   = {journal-int}
+  volume    = {},
+  pages     = {},
+  year      = {2023},
+  doi       = {10.1007/s11042-023-14877-1},
+  url_arXiv = "https://arxiv.org/abs/2201.01823",
+  url_PDF   = "https://arxiv.org/pdf/2201.01823.pdf",
+  url       = "https://link.springer.com/article/10.1007/s11042-023-14877-1",
+  abstract  = "Zero-shot learning (ZSL) aims at recognizing classes for which no visual sample is available at training time. To address this issue, one can rely on a semantic description of each class. A typical ZSL model learns a mapping between the visual samples of seen classes and the corresponding semantic descriptions, in order to do the same on unseen classes at test time. State of the art approaches rely on generative models that synthesize visual features from the prototype of a class, such that a classifier can then be learned in a supervised manner. However, these approaches are usually biased towards seen classes whose visual instances are the only one that can be matched to a given class prototype. We propose a regularization method that can be applied to any conditional generative-based ZSL method, by leveraging only the semantic class prototypes. It learns to synthesize discriminative features for possible semantic description that are not available at training time, that is the unseen ones. The approach is evaluated for ZSL and GZSL on four datasets commonly used in the literature, either in inductive and transductive settings, with results on-par or above state of the art approaches.",
+  keywords  = {journal-int,zero-shot-learning,generative-models}
 }
 @inproceedings{adjali2023icmr,
-  title = {Explicit Knowledge Integration for Knowledge-Aware Visual Question Answering about Named Entities},
-  author = {Adjali, Omar and Grimal, Paul and Ferret, Olivier and Ghannay, Sahar and {Le Borgne}, Herv{\'e}},
-  booktitle=ICMR,
-  location = {Thessaloniki, Greece},
-  year={2023},
-  url_HAL = {https://universite-paris-saclay.hal.science/cea-04172061/},
-  url = {https://dl.acm.org/doi/abs/10.1145/3591106.3592227},
-  doi = {10.1145/3591106.3592227},
-  abstract = {Recent years have shown an unprecedented growth of interest in Vision-Language related tasks, with the need to address the inherent challenges of integrating linguistic and visual information to solve real-world applications. Such a typical task is Visual Question Answering (VQA), which aims at answering questions about visual content. The limitations of the VQA task in terms of question redundancy and poor linguistic variability encouraged researchers to propose Knowledge-aware Visual Question Answering tasks as a natural extension of VQA. In this paper, we tackle the KVQAE (Knowledge-based Visual Question Answering about named Entities) task, which proposes to answer questions about named entities defined in a knowledge base and grounded in a visual content. In particular, beside the textual and visual information, we propose to leverage the structural information extracted from syntactic dependency trees and external knowledge graphs to help answer questions about a large spectrum of entities of various types. Thus, by combining contextual and graph-based representations using Graph Convolutional Networks (GCNs), we are able to learn meaningful embeddings for information retrieval tasks. Experiments on the KVQAE public dataset show how our approach improves the state-of-the art baselines while demonstrating the interest of injecting external knowledge to enhance multimodal information retrieval. },
-  keywords = {conf-int}
+  title     = {Explicit Knowledge Integration for Knowledge-Aware Visual Question Answering about Named Entities},
+  author    = {Adjali, Omar and Grimal, Paul and Ferret, Olivier and Ghannay, Sahar and {Le Borgne}, Herv{\'e}},
+  booktitle = "International Conference on Multimedia Retrieval (ICMR)",
+  location  = {Thessaloniki, Greece},
+  year      = {2023},
+  url_HAL   = {https://universite-paris-saclay.hal.science/cea-04172061/},
+  url       = {https://dl.acm.org/doi/abs/10.1145/3591106.3592227},
+  doi       = {10.1145/3591106.3592227},
+  abstract  = {Recent years have shown an unprecedented growth of interest in Vision-Language related tasks, with the need to address the inherent challenges of integrating linguistic and visual information to solve real-world applications. Such a typical task is Visual Question Answering (VQA), which aims at answering questions about visual content. The limitations of the VQA task in terms of question redundancy and poor linguistic variability encouraged researchers to propose Knowledge-aware Visual Question Answering tasks as a natural extension of VQA. In this paper, we tackle the KVQAE (Knowledge-based Visual Question Answering about named Entities) task, which proposes to answer questions about named entities defined in a knowledge base and grounded in a visual content. In particular, beside the textual and visual information, we propose to leverage the structural information extracted from syntactic dependency trees and external knowledge graphs to help answer questions about a large spectrum of entities of various types. Thus, by combining contextual and graph-based representations using Graph Convolutional Networks (GCNs), we are able to learn meaningful embeddings for information retrieval tasks. Experiments on the KVQAE public dataset show how our approach improves the state-of-the art baselines while demonstrating the interest of injecting external knowledge to enhance multimodal information retrieval. },
+  keywords  = {conf-int,kvqae}
+}
+
+@inproceedings{bojko22bmvc,
+  title     = {Self-Improving SLAM in Dynamic Environments: Learning When to Mask},
+  author    = {Adrian Bojko and Romain Dupont and Mohamed Tamaazousti and Herv{\'e} {Le Borgne}},
+  booktitle = "British Machine Vision Conference (BMVC)",
+  year      = {2022},
+  keywords  = {conf-int}
+}
+
+@inproceedings{lerner2022viquae,
+  author    = {Lerner, Paul and Ferret, Olivier and Guinaudeau, Camille and Le Borgne, Herv\'{e} and Besan\c{c}on, Romaric and Moreno, Jose G. and Lov\'{o}n Melgarejo, Jes\'{u}s},
+  title     = {ViQuAE, a Dataset for Knowledge-Based Visual Question Answering about Named Entities},
+  year      = {2022},
+  isbn      = {9781450387323},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3477495.3531753},
+  doi       = {10.1145/3477495.3531753},
+  booktitle = {Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages     = {3108–3120},
+  numpages  = {13},
+  location  = {Madrid, Spain},
+  series    = {SIGIR '22},
+  url_HAL   = {https://universite-paris-saclay.hal.science/hal-03650618/document},
+  url_Code  = {https://github.com/PaulLerner/ViQuAE},
+  keywords  = {conf-int,kvqae}
 }
 
 @article{doubinsky2022prl,
-  author     = {Perla Doubinsky and
-               Nicolas Audebert and
-               Michel Crucianu and
-               Herv{\'{e}} Le Borgne},
-  title      = {Multi-Attribute Balanced Sampling for Disentangled {GAN} Controls},
-  journal    = {Pattern Recognition Letters},
-  volume     = {162},
-  pages      = {56-62},
-  year       = {2022},
-  doi        = {https://doi.org/10.1016/j.patrec.2022.08.012},
-  url        = "https://www.sciencedirect.com/science/article/abs/pii/S0167865522002501",
-  url_arXiv  = "https://arxiv.org/abs/2111.00909",
-  url_PDF    = "https://arxiv.org/pdf/2111.00909.pdf",
-  url_Code   = "https://github.com/perladoubinsky/balanced_sampling_gan_controls",
-  abstract   = "Various controls over the generated data can be extracted from the latent space of a pre-trained GAN, as it implicitly encodes the semantics of the training data. The discovered controls allow to vary semantic attributes in the generated images but usually lead to entangled edits that affect multiple attributes at the same time. Supervised approaches typically sample and annotate a collection of latent codes, then train classifiers in the latent space to identify the controls. Since the data generated by GANs reflects the biases of the original dataset, so do the resulting semantic controls. We propose to address disentanglement by subsampling the generated data to remove over-represented co-occuring attributes thus balancing the semantics of the dataset before training the classifiers. We demonstrate the effectiveness of this approach by extracting disentangled linear directions for face manipulation on two popular GAN architectures, PGGAN and StyleGAN, and two datasets, CelebAHQ and FFHQ. We show that this approach outperforms state-of-the-art classifier-based methods while avoiding the need for disentanglement-enforcing post-processing.",
-  keywords   = {mine}
+  author    = {Perla Doubinsky and Nicolas Audebert and  Michel Crucianu and Herv{\'{e}} {Le Borgne}},
+  title     = {Multi-Attribute Balanced Sampling for Disentangled {GAN} Controls},
+  journal   = {Pattern Recognition Letters},
+  volume    = {162},
+  pages     = {56-62},
+  year      = {2022},
+  doi       = {https://doi.org/10.1016/j.patrec.2022.08.012},
+  url       = "https://www.sciencedirect.com/science/article/abs/pii/S0167865522002501",
+  url_arXiv = "https://arxiv.org/abs/2111.00909",
+  url_PDF   = "https://arxiv.org/pdf/2111.00909.pdf",
+  url_Code  = "https://github.com/perladoubinsky/balanced_sampling_gan_controls",
+  abstract  = "Various controls over the generated data can be extracted from the latent space of a pre-trained GAN, as it implicitly encodes the semantics of the training data. The discovered controls allow to vary semantic attributes in the generated images but usually lead to entangled edits that affect multiple attributes at the same time. Supervised approaches typically sample and annotate a collection of latent codes, then train classifiers in the latent space to identify the controls. Since the data generated by GANs reflects the biases of the original dataset, so do the resulting semantic controls. We propose to address disentanglement by subsampling the generated data to remove over-represented co-occuring attributes thus balancing the semantics of the dataset before training the classifiers. We demonstrate the effectiveness of this approach by extracting disentangled linear directions for face manipulation on two popular GAN architectures, PGGAN and StyleGAN, and two datasets, CelebAHQ and FFHQ. We show that this approach outperforms state-of-the-art classifier-based methods while avoiding the need for disentanglement-enforcing post-processing.",
+  keywords  = {journal-int,generative-models}
+}
+
+@incollection{lecacheux21gzsl,
+  title={Zero-shot Learning with Deep Neural Networks for Object Recognition},
+  chapter = {6},
+  author={Le Cacheux, Yannick and Le Borgne, Herv{\'e} and Crucianu, Michel},
+  booktitle={Multi-faceted Deep Learning},
+  pages={273--288},
+  year = {2021},
+  editor = {J. Benois Pineau and A. Zemmari},
+  publisher={Springer},
+  keywords = {book-chap,zero-shot-learning}
+}
+
+@inproceedings{plumerault20icpr,
+  title = {AVAE: Adversarial Variational Auto Encoder},
+  author={Antoine Plumerault and Herv{\'e} {Le Borgne} and C{\'e}line Hudelot},
+  booktitle="International Conference on Pattern Recognition (ICPR)",
+  year={2021},
+  keywords = {conf-int,generative-models}
+}
+
+@inproceedings{bojko20icpr,
+  title = {Learning to Segment Dynamic Objects Using SLAM Outliers},
+  author={Adrian Bojko and Romain Dupont and Mohamed Tamaazousti and Herv{\'e} {Le Borgne}},
+  booktitle = "International Conference on Pattern Recognition (ICPR)",
+  year={2021},
+  keywords = {conf-int}
+}
+
+@inproceedings{lecacheux20taskcv,
+ author = {Le Cacheux, Yannick and Le Borgne, Herv{\'e} and Crucianu, Michel},
+ title = {Using Sentences as Semantic Representations in Large Scale Zero-Shot Learning},
+ booktitle = {TASK-CV Workshop - ECCV 2020},
+ year = {2020},
+ address = {Online},
+ keywords = {conf-int,zero-shot-learning}
+}
+
+@inproceedings{lecacheux20accv,
+  author = {Le Cacheux, Yannick and Popescu, Adrian and  Le Borgne, Herv{\'e}},
+  title = {Webly Supervised Semantic Embeddings for Large Scale Zero-Shot Learning},
+  booktitle = ACCV,
+  year = {2020},
+  keywords = {conf-int,zero-shot-learning}
+}
+
+@inproceedings{plumerault2020iclr,
+title={Controlling generative models with continuous factors of variations},
+author={Antoine Plumerault and Herv{\'e} {Le Borgne} and C{\'e}line Hudelot},
+booktitle={International Conference on Pattern Recognition (ICPR)},
+year={2020},
+url={https://openreview.net/forum?id=H1laeJrKDB},
+url_PDF  = {https://arxiv.org/pdf/2001.10238.pdf},
+url_Code = {https://github.com/AntoinePlumerault/Controlling-generative-models-with-continuous-factors-of-variations},
+keywords = {conf-int,generative-models}
+}
+
+@inproceedings{adjali2020ecir,
+    title={Multimodal Entity Linking for Tweets},
+    author={Adjali, Omar and Besancon, romaric and Ferret, olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
+    booktitle=ECIR,
+    year={2020},
+    month={4},
+    day={14--17},
+    address={Lisbon, Portugal},
+    keywords = {conf-int}
+}
+
+@inproceedings{adjali2020lrec,
+    title={Building a Multimodal Entity Linking Dataset From Tweets},
+    author={Adjali, Omar and Besancon, romaric and Ferret, olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
+    booktitle={International Conference on Language Resources and Evaluation (LREC)},
+    year={2020},
+    month={5},
+    day={11--16},
+    address={Marseille, France},
+    keywords = {conf-int}
 }
 
