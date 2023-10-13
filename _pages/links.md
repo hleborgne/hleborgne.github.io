@@ -60,6 +60,7 @@ classes: wide
 - [Romaric Besançon](https://scholar.google.com/citations?user=9CiniHsAAAAJ&hl=en)
 - [Julien Tourille](https://jtourille.github.io/)
 - [Benjamin Labbé](https://scholar.google.com/citations?user=TqcbFrAAAAAJ&hl=en)
+- [Quoc Cuong Pham](https://scholar.google.fr/citations?user=3rZlzWQAAAAJ&hl=fr)
 - [Raphaël Mitteau](https://scholar.google.com/citations?user=KY-WWgoAAAAJ&hl=fr)
 
 #### Colleagues not at CEA (co-supervision)
