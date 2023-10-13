@@ -26,12 +26,11 @@ My mailing adress is: CEA Saclay - Nano-INNOV, DRT/LIST/DIASI/SIALV/LASTI, Bat 8
 ## Short bio
 Hervé Le Borgne is a researcher at the CEA-List since 2006, carrying out research on computer vision and focusing on the links between visual and textual content. Previously, he received his Ph.D. from the INP Grenoble in 2004 and worked as a post-doc at Dublin City university from 2004 to 2006. He published more than 60 articles in international conferences and journals dealing with computer vision, multimedia retrieval, machine learning and more generally multimedia mining in order to extract semantic. He has served as a reviewer for several international conferences and journals, including CVPR, ACM Multimedia, IEEE T. PAMI, Computer Vision and Image Understanding, Multimedia Tools and Applications and IEEE T. Multimedia. He has been a project manager since 2006, both for public funded projects and industrial contracts. He supervised 20 master students and co-advised five Ph.D. in collaboration with Ecole Centrale Paris and CNAM. Currently, he co-advises three PhD students, some in collaboration with CNAM and CentraleSupelec.
 
-## Positions and Education
+### Positions and Education
 - since 2019: researcher at the Laboratory of Semantic Analysis of Texts and Images (CEA-List)
 - 2010 - 2019: researcher at the [Vision and Content Engineering Laboratory](https://kalisteo.cea.fr/index.php/ai/) (CEA-List)
 - 2006 - 2010: researcher at the Laboratoire d'Ingenierie de la Connaissance Multimedia et Multilingue (CEA-List)
-- 2004 - 2006: research assistant (CDVP, [Dublin City University](https://www.dcu.ie/), Ireland), post doc with [Noel O'Connor](https://www.insight-centre.org/our-team/prof-noel-oconnor/) 
-- 2000 - 2004: **Ph.D.** at [INPG](https://www.grenoble-inp.fr/), with Anne Guérin-Dugué. [*Analyse de scènes naturelles par Composantes Indépendantes*](https://theses.hal.science/tel-00005925) 
-- 1999 - 2000: **MsC** at [INPG](https://www.grenoble-inp.fr/), with Anne Guérin-Dugué. *Etude de la représentation corticale des images naturelles: application à l'indexation de bases d'images*
-- 1997 - 2000: **[Dipl. Ing](https://en.wikipedia.org/wiki/Dipl%C3%B4me_d%27Ing%C3%A9nieur)**  at [INPG](https://www.grenoble-inp.fr/) (ENSERG)
-- 1994: **Baccalaureat**
+- 2004 - 2006: post doc with [Noel O'Connor](https://www.insight-centre.org/our-team/prof-noel-oconnor/) (CDVP, [Dublin City University](https://www.dcu.ie/), Ireland)
+- 2000 - 2004: Ph.D. (dir. [Anne Guérin-Dugué](https://www.gipsa-lab.grenoble-inp.fr/user/anne.guerin-dugue)) on [*Analyse de scènes naturelles par Composantes Indépendantes*](https://theses.hal.science/tel-00005925) ([INPG](https://www.grenoble-inp.fr/), Grenoble, France)
+- 1999 - 2000: MSc (sup. Anne Guérin-Dugué) on *Etude de la représentation corticale des images naturelles: application à l'indexation de bases d'images* ([INPG](https://www.grenoble-inp.fr/), Grenoble, France)
+- 1997 - 2000: [Dipl. Ing](https://en.wikipedia.org/wiki/Dipl%C3%B4me_d%27Ing%C3%A9nieur) (MEng)  in electronics and information sciences (ENSERG, [INPG](https://www.grenoble-inp.fr/), Grenoble).
