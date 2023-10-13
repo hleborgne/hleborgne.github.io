@@ -56,13 +56,17 @@ classes: wide
 ## People I work(ed) with
 #### Colleagues at CEA
 - [Adrian Popescu](https://scholar.google.com/citations?user=fjsa2GYAAAAJ&hl=en)
-- [Olivier Ferret]()
-- [Romaric Besançon]()
+- [Olivier Ferret](http://oferret.free.fr/index.html)
+- [Romaric Besançon](https://scholar.google.com/citations?user=9CiniHsAAAAJ&hl=en)
+- [Julien Tourille](https://jtourille.github.io/)
+- [Benjamin Labbé](https://scholar.google.com/citations?user=TqcbFrAAAAAJ&hl=en)
+- [Raphaël Mitteau](https://scholar.google.com/citations?user=KY-WWgoAAAAJ&hl=fr)
 
 #### Colleagues not at CEA (co-supervision)
 - [Céline Hudelot](https://hudelotc.github.io/)
 - [Michel Crucianu](http://cedric.cnam.fr/~crucianm/)
 - [Nicolas Audebert](https://nicolas.audebert.at/)
+- [Brigitte Grau](https://perso.limsi.fr/bg/)
 - [Nikos Paragios](https://en.wikipedia.org/wiki/Nikos_Paragios)
 - [Isabelle Bloch](http://perso.telecom-paristech.fr/bloch)
 - [Noel O'Connor](https://www.insight-centre.org/our-team/prof-noel-oconnor/)
