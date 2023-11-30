@@ -245,6 +245,7 @@
     publisher={IEEE},
     doi     = {10.1109/TPAMI.2019.2913857},
     url_PDF = {https://arxiv.org/pdf/1712.09708.pdf},
+    url_code = {https://github.com/youssefTamaazousti/MuldipNet-tensorflow},
     note    = {(online pre-print, 30 april 2019)},
     abstract = {A representation is supposed universal if it encodes any element of the visual world (e.g., objects, scenes) in any configuration (e.g., scale, context). While not expecting pure universal representations, the goal in the literature is to improve the universality level, starting from a representation with a certain level. To do so, the state-of-the-art consists in learning CNN-based representations on a diversified training problem (e.g., ImageNet modified by adding annotated data). While it effectively increases universality, such approach still requires a large amount of efforts to satisfy the needs in annotated data. In this work, we propose two methods to improve universality, but pay special attention to limit the need of annotated data. We also propose a unified framework of the methods based on the diversifying of the training problem. Finally, to better match Atkinson’s cognitive study about universal human representations, we proposed to rely on the transfer-learning scheme as well as a new metric to evaluate universality. This latter, aims us to demonstrates the interest of our methods on 10 target-problems, relating to the classification task and a variety of visual domains.},
     keywords = {journal-int}
@@ -277,13 +278,106 @@
 }
 
 @inproceedings{girard18bmvc,
- author    = {Girard, Julien  and Tamaazousti, Youssef  and Le Borgne, Herv{\'e} and C{\'e}line Hudelot},
- title     = {Learning Finer-class Networks for Universal Representation},
- booktitle = {British Machine Vision Conference (BMVC)},
- year      = {2018},
- address   = {Newcastle Upon Tyne (UK)},
- url_PDF   = {http://bmvc2018.org/contents/papers/1021.pdf},
- url_supp  = {http://bmvc2018.org/contents/supplementary/pdf/1021_supp.pdf},
- abstract  = {Many real-world visual recognition use-cases can not directly benefit from state-of-the-art CNN-based approaches because of the lack of many annotated data. The usual approach to deal with this is to transfer a representation pre-learned on a large annotated source-task onto a target-task of interest. This raises the question of how well the original representation is “universal”, that is to say directly adapted to many different target-tasks. To improve such universality, the state-of-the-art consists in training networks on a diversified source problem, that is modified either by adding generic or specific categories to the initial set of categories. In this vein, we proposed a method that exploits finer-classes than the most specific ones existing, for which no annotation is available. We rely on unsupervised learning and a bottom-up split and merge strategy. We show that our method learns more universal representations than state-of-the-art, leading to significantly better results on 10 target-tasks from multiple domains, using several network architectures, either alone or combined with networks learned at a coarser semantic level.},
- keywords  = {conf-int}
+    author    = {Girard, Julien  and Tamaazousti, Youssef  and Le Borgne, Herv{\'e} and C{\'e}line Hudelot},
+    title     = {Learning Finer-class Networks for Universal Representation},
+    booktitle = {British Machine Vision Conference (BMVC)},
+    year      = {2018},
+    address   = {Newcastle Upon Tyne (UK)},
+    url_PDF   = {http://bmvc2018.org/contents/papers/1021.pdf},
+    url_supp  = {http://bmvc2018.org/contents/supplementary/pdf/1021_supp.pdf},
+    abstract  = {Many real-world visual recognition use-cases can not directly benefit from state-of-the-art CNN-based approaches because of the lack of many annotated data. The usual approach to deal with this is to transfer a representation pre-learned on a large annotated source-task onto a target-task of interest. This raises the question of how well the original representation is “universal”, that is to say directly adapted to many different target-tasks. To improve such universality, the state-of-the-art consists in training networks on a diversified source problem, that is modified either by adding generic or specific categories to the initial set of categories. In this vein, we proposed a method that exploits finer-classes than the most specific ones existing, for which no annotation is available. We rely on unsupervised learning and a bottom-up split and merge strategy. We show that our method learns more universal representations than state-of-the-art, leading to significantly better results on 10 target-tasks from multiple domains, using several network architectures, either alone or combined with networks learned at a coarser semantic level.},
+    keywords  = {conf-int}
+}
+
+@article{tamaazousti2017cviu,
+    title    = {Vision-language integration using constrained local semantic features},
+    journal  = {Computer Vision and Image Understanding},
+    author   = {Tamaazousti, Youssef and Le Borgne, Herv\'{e} and Popescu, Adrian and Gadeski, Etienne and Ginsca, Alexandru Lucian and Hudelot, C{\'e}line},
+    volume   = {163},
+    number   = {Supplement C},
+    pages    = {41 - 57},
+    year     = {2017},
+    issn     = {1077-3142},
+    doi      = {10.1016/j.cviu.2017.05.017},
+    url      = {https://www.sciencedirect.com/science/article/abs/pii/S1077314217301121},
+    abstract = {This paper tackles two recent promising issues in the field of computer vision, namely “the integration of linguistic and visual information” and “the use of semantic features to represent the image content”. Semantic features represent images according to some visual concepts that are detected into the image by a set of base classifiers. Recent works exhibit competitive performances in image classification and retrieval using such features. We propose to rely on this type of image descriptions to facilitate its integration with linguistic data. More precisely, the contribution of this paper is threefold. First, we propose to automatically determine the most useful dimensions of a semantic representation according to the actual image content. Hence, it results into a level of sparsity for the semantic features that is adapted to each image independently. Our model takes into account both the confidence on each base classifier and the global amount of information of the semantic signature, defined in the Shannon sense. This contribution is further extended to better reflect the detection of a visual concept at a local scale. Second, we introduce a new strategy to learn an efficient mid-level representation by CNNs that boosts the performance of semantic signatures. Last, we propose several schemes to integrate a visual representation based on semantic features with some linguistic piece of information, leading to the nesting of linguistic information at two levels of the visual features. Experimental validation is conducted on four benchmarks (VOC 2007, VOC 2012, Nus-Wide and MIT Indoor) for classification, three of them for retrieval and two of them for bi-modal classification. The proposed semantic feature achieves state-of-the-art performances on three classification benchmarks and all retrieval ones. Regarding our vision-language integration method, it achieves state-of-the-art performances in bi-modal classification.},
+    keywords = {journal-int}
+}
+
+@article{vo2017cviu,
+    author   = {Vo, Phong and Ginsca, Alexandru Lucian and Le Borgne, Herv\'{e} and Popescu, Adrian},
+    title    = {Harnessing Noisy Web Images for Deep Representation},
+    journal  = {Computer Vision and Image Understanding},
+    year     = {2017},
+    month    = {1},
+    note     = {on line jan 2017},
+    doi      = {10.1016/j.cviu.2017.01.009},
+    keywords = {journal-int}
+}
+
+@article{gadeski2017mtap,
+  author       = {Gadeski, Etienne and Le Borgne, Herv{\'e} and Popescu, Adrian},
+  title        = {Fast and robust duplicate image detection on the web},
+  year         = {2017},
+  journal      = {Multimedia Tools and Applications},
+  volume       = {76},
+  pages        = {11839-11858},
+  month        = {5},
+  doi          = {10.1007/s11042-016-3619-4},
+  url_PDF      = {https://hal.science/hal-01845526v1/document},
+  abstract     = {Social media intelligence is interested in detecting the massive propagation of similar visual content. It can be seen, under certain conditions, as a problem of detecting near duplicate images in a stream of web data. However, in the context considered, it requires not only an efficient indexing and searching algorithm but also to be fast to compute the image description, since the total time of description and searching must be short enough to satisfy the constraint induced by the web stream flow rate. While most of methods of the state of the art focus on the efficiency at searching time, we propose a new descriptor satisfying the aforementioned requirements. We evaluate our method on two different datasets with the use of different sets of distractor images, leading to large-scale image collections (up to 100 million images). We compare our method to the state of the art and show it exhibits among the best detection performances but is much faster (one to two orders of magnitude).},
+  keywords     = {journal-int}
+}
+
+@InProceedings{popescu2017iccv_w,
+    author       = {Popescu, Adrian and Ginsca, Alexandru Lucian and Le Borgne, Herv{\'e}},
+    title        = {Scale-Free Content Based Image Retrieval (or Nearly So)},
+    booktitle    = {IEEE International Conference on Computer Vision (ICCV) workshop on Web-Scale Vision and Social Media},
+    year         = {2017},
+    pages        = {280-288},
+    address      = {Venice},
+    doi          = {10.1109/ICCVW.2017.42},
+    url_PDF      = {https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Popescu_Scale-Free_Content_Based_ICCV_2017_paper.pdf},
+    abstract     = {When textual annotations of Web and social media images are poor or missing, content-based image retrieval is an interesting way to access them. Finding an optimal trade-off between accuracy and scalability for CBIR is challenging in practice. We propose a retrieval method whose complexity is nearly independent of the collection scale and does not degrade results quality. Images are represented with sparse semantic features that can be stored as an inverted index. Search complexity is drastically reduced by (1) considering the query feature dimensions independently and thus turning search into a concatenation operation and (2) pruning the index in function of a retrieval objective. To improve precision, the inverted index look-up is complemented with an exhaustive search over a fixed size list of intermediary results. We run experiments with three public collections and results show that our much faster method slightly outperforms an exhaustive search done with two competitive baselines.},
+    keywords     = {conf-int}
+}
+
+@InProceedings{chami2017icmr,
+ author       = {Chami,Ines and Tamaazousti, Youssef and Le Borgne, Herv{\'e}},
+ title        = {AMECON: Abstract Meta-Concept Features for Text-Illustration},
+ booktitle    = {ACM International Conference on Multimedia Retrieval (ICMR)},
+ year         = {2017},
+ address      = {Bucharest},
+ doi          = {10.1145/3078971.3078993},
+ url_PDF      = {http://people.csail.mit.edu/ytamaaz/files/pdf/AMECON_Abstract_Meta_Concept_Features_for_Text_Illustration.pdf},
+ url_slides   = {http://people.csail.mit.edu/ytamaaz/files/slides/Chami_Tamaazousti_LeBorgne_ICMR17.pdf},
+ abstract     = {Cross-media retrieval is a problem of high interest that is at the frontier between computer vision and natural language processing. The state-of-the-art in the domain consists of learning a common space with regard to some constraints of correlation or similarity from two textual and visual modalities that are processed in parallel and possibly jointly. This paper proposes a different approach that considers the cross-modal problem as a supervised mapping of visual modalities to textual ones. Each modality is thus seen as a particular projection of an abstract meta-concept, each of its dimension subsuming several semantic concepts (``meta'' aspect) but may not correspond to an actual one (``abstract'' aspect). In practice, the textual modality is used to generate a multi-label representation, further used to map the visual modality through a simple shallow neural network. While being quite easy to implement, the experiments show that our approach significantly outperforms the state-of-the-art on Flickr-8K and Flickr-30K datasets for the text-illustration task},
+ keywords     = {conf-int}
+}
+
+@InProceedings{tamaazousti2017cvpr,
+ author       = {Tamaazousti, Youssef and Le Borgne, Herv{\'e} and Hudelot,C{\'e}line},
+ title        = {MuCaLe-Net: Multi Categorical-Level Networks to Generate More Discriminating Features},
+ booktitle    = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+ year         = {2017},
+ address      = {Honolulu},
+ url_PDF      ={https://openaccess.thecvf.com/content_cvpr_2017/papers/Tamaazousti_MuCaLe-Net_Multi_Categorical-Level_CVPR_2017_paper.pdf},
+ url_supp     = {https://openaccess.thecvf.com/content_cvpr_2017/supplemental/Tamaazousti_MuCaLe-Net_Multi_Categorical-Level_2017_CVPR_supplemental.pdf},
+ url_code     = {https://github.com/youssefTamaazousti/MuldipNet-tensorflow},
+ doi          = {10.1109/CVPR.2017.561},
+ abstract     = {In a transfer-learning scheme, the intermediate layers of a pre-trained CNN are employed as universal image representation to tackle many visual classification problems. The current trend to generate such representation is to learn a CNN on a large set of images labeled among the most specific categories. Such processes ignore potential relations between categories, as well as the categorical-levels used by humans to classify. In this paper, we propose Multi Categorical-Level Networks (MuCaLe-Net) that include human-categorization knowledge into the CNN learning process. A MuCaLe-Net separates generic categories from each other while it independently distinguishes specific ones. It thereby generates different features in the intermediate layers that are complementary when combined together. Advantageously, our method does not require additive data nor annotation to train the network. The extensive experiments over four publicly available benchmarks of image classification exhibit state-of-the-art performances.},
+ keywords     = {conf-int}
+}
+
+@InProceedings{daher2017cicling,
+ author       = {Daher, Hani and Besan\c{c}on, Romaric and  Ferret, Olivier and  Le Borgne, Herv{\'e} and Daquo,Anne-Laure and  Tamaazousti, Youssef},
+ title        = {Supervised Learning of Entity Disambiguation Models by Negative Sample Selection},
+ booktitle    = {18th International Conference on Computational Linguistics and Intelligent Text Processing (CICLing)},
+ year         = {2017},
+ address      = {Budapest, Hungary},
+ note         = {17 -- 23 avril},
+ doi          = {10.1007/978-3-319-77113-7_26},
+ url_PDF      = {http://people.csail.mit.edu/ytamaaz/files/pdf/Supervised_Learning_of_Entity_Disambiguation_Models_by_Negative_Sample_Selection.pdf},
+ abstract     = {The objective of Entity Linking is to connect an entity mention in a text to a known entity in a knowledge base. The general approach for this task is to generate, for a given mention, a set of candidate entities from the base and determine, in a second step, the best one. This paper focuses on this last step and proposes a method based on learning a function that discriminates an entity from its most ambiguous ones. Our contribution lies in the strategy to learn efficiently such a model while keeping it compatible with large knowledge bases. We propose three strategies with different efficiency/performance trade-off, that are experimentally validated on six datasets of the TAC evaluation campaigns by using Freebase and DBpedia as reference knowledge bases.},
+ keywords     = {conf-int}
 }
