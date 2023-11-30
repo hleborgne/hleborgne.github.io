@@ -234,3 +234,56 @@
   keywords  = {conf-int}
 }
 
+@article{tamaazousti2020pami,
+    author  = {Youssef Tamaazousti and Le Borgne, Herv{\'e} and C{\'e}line Hudelot and Mohammed El-Amine Seddik and Mohammed Tamaazousti},
+    title   = {Learning More Universal Representations for Transfer-Learning},
+    journal = {IEEE T. Pattern Analysis and Machine Intelligence (PAMI)},
+    year    = {2020},
+    volume  = {42},
+    number  = {9},
+    pages   = {2212-2224},
+    publisher={IEEE},
+    doi     = {10.1109/TPAMI.2019.2913857},
+    url_PDF = {https://arxiv.org/pdf/1712.09708.pdf},
+    note    = {(online pre-print, 30 april 2019)},
+    abstract = {A representation is supposed universal if it encodes any element of the visual world (e.g., objects, scenes) in any configuration (e.g., scale, context). While not expecting pure universal representations, the goal in the literature is to improve the universality level, starting from a representation with a certain level. To do so, the state-of-the-art consists in learning CNN-based representations on a diversified training problem (e.g., ImageNet modified by adding annotated data). While it effectively increases universality, such approach still requires a large amount of efforts to satisfy the needs in annotated data. In this work, we propose two methods to improve universality, but pay special attention to limit the need of annotated data. We also propose a unified framework of the methods based on the diversifying of the training problem. Finally, to better match Atkinson’s cognitive study about universal human representations, we proposed to rely on the transfer-learning scheme as well as a new metric to evaluate universality. This latter, aims us to demonstrates the interest of our methods on 10 target-problems, relating to the classification task and a variety of visual domains.},
+    keywords = {journal-int}
+}
+
+@inproceedings{lecacheux2019iccv,
+    author    = {Le Cacheux, Yannick and Le Borgne, Herv{\'e} and Crucianu, Michel},
+    title     = {Modeling Inter and Intra-Class Relations in the Triplet Loss for Zero-Shot Learning},
+    booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
+    year      = {2019},
+    address   = {Seoul, Korea},
+    url_PDF   = {https://openaccess.thecvf.com/content_ICCV_2019/papers/Le_Cacheux_Modeling_Inter_and_Intra-Class_Relations_in_the_Triplet_Loss_for_ICCV_2019_paper.pdf},
+    url_supp  = {https://openaccess.thecvf.com/content_ICCV_2019/supplemental/Le_Cacheux_Modeling_Inter_and_ICCV_2019_supplemental.pdf},
+    url_Code  = {https://github.com/yannick-lc/iccv2019-triplet-loss},
+    abstract = {Recognizing visual unseen classes, i.e. for which no training data is available, is known as Zero Shot Learning (ZSL). Some of the best performing methods apply the triplet loss to seen classes to learn a mapping between visual representations of images and attribute vectors that constitute class prototypes. They nevertheless make several implicit assumptions that limit their performance on real use cases, particularly with fine-grained datasets comprising a large number of classes. We identify three of these assumptions and put forward corresponding novel contributions to address them. Our approach consists in taking into account both inter-class and intra-class relations, respectively by being more permissive with confusions between similar classes, and by penalizing visual samples which are atypical to their class. The approach is tested on four datasets, including the large-scale ImageNet, and exhibitsperformances significantly above recent methods, even generative methods based on more restrictive hypotheses.},
+    keywords  = {conf-int}
+}
+
+@inproceedings{lecacheux2019mmm,
+    author = {Le Cacheux, Yannick and Le Borgne, Herv{\'e} and Crucianu, Michel},
+    title = {From Classical to Generalized Zero-Shot Learning: a Simple Adaptation Process},
+    booktitle = {International Conference on MultiMedia Modeling (MMM)},
+    year = {2019},
+    address = {Thessaloniki, Grece},
+    month = {1},
+    url_PDF = {https://arxiv.org/pdf/1809.10120.pdf},
+    doi     = {10.1007/978-3-030-05716-9_38},
+    abstract = {Zero-shot learning (ZSL) is concerned with the recognition of previously unseen classes. It relies on additional semantic knowledge for which a mapping can be learned with training examples of seen classes. While classical ZSL considers the recognition performance on unseen classes only, generalized zero-shot learning (GZSL) aims at maximizing performance on both seen and unseen classes. In this paper, we propose a new process for training and evaluation in the GZSL setting; this process addresses the gap in performance between samples from unseen and seen classes by penalizing the latter, and enables to select hyper-parameters well-suited to the GZSL task. It can be applied to any existing ZSL approach and leads to a significant performance boost: the experimental evaluation shows that GZSL performance, averaged over eight state-of-the-art methods, is improved from 28.5 to 42.2 on CUB and from 28.2 to 57.1 on AwA2.},
+    keywords = {conf-int}
+}
+
+@inproceedings{girard18bmvc,
+ author    = {Girard, Julien  and Tamaazousti, Youssef  and Le Borgne, Herv{\'e} and C{\'e}line Hudelot},
+ title     = {Learning Finer-class Networks for Universal Representation},
+ booktitle = {British Machine Vision Conference (BMVC)},
+ year      = {2018},
+ address   = {Newcastle Upon Tyne (UK)},
+ url_PDF   = {http://bmvc2018.org/contents/papers/1021.pdf},
+ url_supp  = {http://bmvc2018.org/contents/supplementary/pdf/1021_supp.pdf},
+ abstract  = {Many real-world visual recognition use-cases can not directly benefit from state-of-the-art CNN-based approaches because of the lack of many annotated data. The usual approach to deal with this is to transfer a representation pre-learned on a large annotated source-task onto a target-task of interest. This raises the question of how well the original representation is “universal”, that is to say directly adapted to many different target-tasks. To improve such universality, the state-of-the-art consists in training networks on a diversified source problem, that is modified either by adding generic or specific categories to the initial set of categories. In this vein, we proposed a method that exploits finer-classes than the most specific ones existing, for which no annotation is available. We rely on unsupervised learning and a bottom-up split and merge strategy. We show that our method learns more universal representations than state-of-the-art, leading to significantly better results on 10 target-tasks from multiple domains, using several network architectures, either alone or combined with networks learned at a coarser semantic level.},
+ keywords  = {conf-int}
+}
