@@ -96,7 +96,7 @@
   author    = {Adrian Bojko and Romain Dupont and Mohamed Tamaazousti and Herv{\'e} {Le Borgne}},
   booktitle = "British Machine Vision Conference (BMVC)",
   year      = {2022},
-  keywords  = {conf-int}
+  keywords  = {conf-int,slam}
 }
 
 @inproceedings{lerner2022viquae,
@@ -134,7 +134,7 @@
   keywords  = {journal-int,generative-models}
 }
 
-@incollection{lecacheux21gzsl,
+@incollection{lecacheux2021gzsl,
   title     = {Zero-shot Learning with Deep Neural Networks for Object Recognition},
   chapter   = {6},
   author    = {Le Cacheux, Yannick and {Le Borgne}, Herv{\'e} and Crucianu, Michel},
@@ -149,7 +149,7 @@
   keywords  = {book-chap,zero-shot-learning}
 }
 
-@inproceedings{plumerault20icpr,
+@inproceedings{plumerault2020icpr,
   title     = {AVAE: Adversarial Variational Auto Encoder},
   author    = {Antoine Plumerault and Herv{\'e} {Le Borgne} and C{\'e}line Hudelot},
   booktitle = {International Conference on Pattern Recognition (ICPR)},
@@ -159,7 +159,7 @@
   keywords  = {conf-int,generative-models}
 }
 
-@inproceedings{bojko20icpr,
+@inproceedings{bojko2020icpr,
   title     = {Learning to Segment Dynamic Objects Using SLAM Outliers},
   author    = {Adrian Bojko and Romain Dupont and Mohamed Tamaazousti and Herv{\'e} {Le Borgne}},
   booktitle = "International Conference on Pattern Recognition (ICPR)",
@@ -168,10 +168,10 @@
   url_PDF   = {https://arxiv.org/pdf/2011.06259},
   year      = {2021},
   abstract  = {We present a method to automatically learn to segment dynamic objects using SLAM outliers. It requires only one monocular sequence per dynamic object for training and consists in localizing dynamic objects using SLAM outliers, creating their masks, and using these masks to train a semantic segmentation network. We integrate the trained network in ORB-SLAM 2 and LDSO. At runtime we remove features on dynamic objects, making the SLAM unaffected by them. We also propose a new stereo dataset and new metrics to evaluate SLAM robustness. Our dataset includes consensus inversions, i.e., situations where the SLAM uses more features on dynamic objects that on the static background. Consensus inversions are challenging for SLAM as they may cause major SLAM failures. Our approach performs better than the State-of-the-Art on the TUM RGB-D dataset in monocular mode and on our dataset in both monocular and stereo modes. },
-  keywords  = {conf-int}
+  keywords  = {conf-int,slam}
 }
 
-@inproceedings{lecacheux20taskcv,
+@inproceedings{lecacheux2020taskcv,
   author    = {Le Cacheux, Yannick and {Le Borgne}, Herv{\'e} and Crucianu, Michel},
   title     = {Using Sentences as Semantic Representations in Large Scale Zero-Shot Learning},
   booktitle = {TASK-CV Workshop - ECCV 2020},
@@ -183,7 +183,7 @@
   keywords  = {conf-int,zero-shot-learning}
 }
 
-@inproceedings{lecacheux20accv,
+@inproceedings{lecacheux2020accv,
   author    = {Le Cacheux, Yannick and Popescu, Adrian and  {Le Borgne}, Herv{\'e}},
   title     = {Webly Supervised Semantic Embeddings for Large Scale Zero-Shot Learning},
   booktitle = "Asian Conference on Computer Vision (ACCV)",
@@ -206,7 +206,7 @@
 
 @inproceedings{adjali2020ecir,
   title     = {Multimodal Entity Linking for Tweets},
-  author    = {Adjali, Omar and Besancon, Romaric and Ferret, Olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
+  author    = {Adjali, Omar and Besan\c{c}on, Romaric and Ferret, Olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
   booktitle = {ropean Conference on Information Retrieval (ECIR)},
   year      = {2020},
   month     = {4},
@@ -221,7 +221,7 @@
 
 @inproceedings{adjali2020lrec,
   title     = {Building a Multimodal Entity Linking Dataset From Tweets},
-  author    = {Adjali, Omar and Besancon, Romaric and Ferret, Olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
+  author    = {Adjali, Omar and Besan\c{c}on, Romaric and Ferret, Olivier and {Le Borgne}, Herv{\'e} and Grau, Brigitte},
   booktitle = {International Conference on Language Resources and Evaluation (LREC)},
   year      = {2020},
   month     = {5},
@@ -260,7 +260,7 @@
     url_supp  = {https://openaccess.thecvf.com/content_ICCV_2019/supplemental/Le_Cacheux_Modeling_Inter_and_ICCV_2019_supplemental.pdf},
     url_Code  = {https://github.com/yannick-lc/iccv2019-triplet-loss},
     abstract = {Recognizing visual unseen classes, i.e. for which no training data is available, is known as Zero Shot Learning (ZSL). Some of the best performing methods apply the triplet loss to seen classes to learn a mapping between visual representations of images and attribute vectors that constitute class prototypes. They nevertheless make several implicit assumptions that limit their performance on real use cases, particularly with fine-grained datasets comprising a large number of classes. We identify three of these assumptions and put forward corresponding novel contributions to address them. Our approach consists in taking into account both inter-class and intra-class relations, respectively by being more permissive with confusions between similar classes, and by penalizing visual samples which are atypical to their class. The approach is tested on four datasets, including the large-scale ImageNet, and exhibitsperformances significantly above recent methods, even generative methods based on more restrictive hypotheses.},
-    keywords  = {conf-int}
+    keywords  = {conf-int,zero-shot-learning}
 }
 
 @inproceedings{lecacheux2019mmm,
@@ -273,7 +273,7 @@
     url_PDF = {https://arxiv.org/pdf/1809.10120.pdf},
     doi     = {10.1007/978-3-030-05716-9_38},
     abstract = {Zero-shot learning (ZSL) is concerned with the recognition of previously unseen classes. It relies on additional semantic knowledge for which a mapping can be learned with training examples of seen classes. While classical ZSL considers the recognition performance on unseen classes only, generalized zero-shot learning (GZSL) aims at maximizing performance on both seen and unseen classes. In this paper, we propose a new process for training and evaluation in the GZSL setting; this process addresses the gap in performance between samples from unseen and seen classes by penalizing the latter, and enables to select hyper-parameters well-suited to the GZSL task. It can be applied to any existing ZSL approach and leads to a significant performance boost: the experimental evaluation shows that GZSL performance, averaged over eight state-of-the-art methods, is improved from 28.5 to 42.2 on CUB and from 28.2 to 57.1 on AwA2.},
-    keywords = {conf-int}
+    keywords = {conf-int,zero-shot-learning}
 }
 
 @inproceedings{girard18bmvc,
