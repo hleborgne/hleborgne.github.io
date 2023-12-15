@@ -85,7 +85,7 @@ classes: wide
 - Saad Lahlali (since 2022) with Nicolas Granger and Quoc Cuong Pham
 - Perla Doubinsky (since 2020) with Nicolas Audebert and Michel Crucianu
 - Adrian Bojko (2018-2022) with Romain Dupont and Mohamed Tamaazousti
-- Antoine Plumerault (since 2018) with Céline Hudelot
+- Antoine Plumerault (2018-2020, defended in 2023) with Céline Hudelot
 - Yannick Le Cacheux (2017-2020) with Michel Crucianu
 - Youssef Tamaazousti (2015-2018) with Céline Hudelot
 - Nhi Quynh Tran (2013-2017) with Michel Crucianu
