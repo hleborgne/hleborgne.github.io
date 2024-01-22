@@ -13,7 +13,7 @@ My research is in the area of **computer vision** with a particular interest on 
 * the [AI4MEDIA project](https://www.ai4media.eu/) (EU H2020) aspires to become a Centre of Excellence engaging a wide network of researchers across Europe and beyond, focusing on delivering the next generation of core AI advances and training to serve the Media sector, while ensuring that the European values of ethical and trustworthy AI are embedded in future AI deployments.
 
 ## Teaching
-I give courses and TDs of *deep learning* at [CentraleSupelec](https://www.centralesupelec.fr/) (since 2017). 
+I give courses and tutorials of *deep learning* at [CentraleSupelec](https://www.centralesupelec.fr/) (since 2017). 
 
 
 Before, I have given courses of *computer vision* at Centrale Paris (2016), tutorials of *NLP* at [INSTN](https://instn.cea.fr/en/) (2007-2009), courses of *video compression* at [Dublin City University](https://www.dcu.ie/) during my post-doc (2005-2006) and various tutorials at [Université Joseph Fourier](https://www.univ-grenoble-alpes.fr/) and [INP Grenoble](https://www.grenoble-inp.fr/en) during my thesis (2001-2003).
