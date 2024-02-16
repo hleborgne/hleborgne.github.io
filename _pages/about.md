@@ -9,8 +9,10 @@ redirect_from:
 My research is in the area of **computer vision** with a particular interest on **relating visual and textual content** and **visual generative models**. I work at [CEA-List](https://list.cea.fr/en/), that is associated with [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en).
 
 ## Main public projects
-* the [Meerqat project](https://www.meerqat.fr/) (ANR 2019) proposes to tackle the problem of analyzing ambiguous visual and textual content by learning and combining their representations and by taking into account the existing knowledge about entities
-* the [AI4MEDIA project](https://www.ai4media.eu/) (EU H2020) aspires to become a Centre of Excellence engaging a wide network of researchers across Europe and beyond, focusing on delivering the next generation of core AI advances and training to serve the Media sector, while ensuring that the European values of ethical and trustworthy AI are embedded in future AI deployments.
+* the STUDIES (ANR 2024 - 2027) project
+* the [Vanguard](https://vanguard-horizon.eu/) (EU Horizon 2023-2026) project aims to strengthen the fight against trafficking in human beings through the provision of improved intelligence picture, delivery of advanced and trustworthy suite of tools, and realisation of innovative training activities.
+* the [Meerqat project](https://www.meerqat.fr/) (ANR 2019 - 2024) proposes to tackle the problem of analyzing ambiguous visual and textual content by learning and combining their representations and by taking into account the existing knowledge about entities
+* the [AI4MEDIA project](https://www.ai4media.eu/) (EU H2020 - 2024) aspires to become a Centre of Excellence engaging a wide network of researchers across Europe and beyond, focusing on delivering the next generation of core AI advances and training to serve the Media sector, while ensuring that the European values of ethical and trustworthy AI are embedded in future AI deployments.
 
 ## Teaching
 I give courses and tutorials of *deep learning* at [CentraleSupelec](https://www.centralesupelec.fr/) (since 2017). 
