@@ -31,6 +31,7 @@ classes: wide
 - ReSend (2005 - 2006) -- Ulysses program
 
 #### National
+- [SHARP](https://project.inria.fr/sharp/) (2023-2027) - France 2030 [PEPR IA](https://www.pepr-ia.fr/projet/sharp/)
 - [Deepgreen](https://anr.fr/fileadmin/aap/2022/france2030-ami-IA-deepgreen.pdf) (2023 - 2026) - France 2030
 - [Meerqat](https://www.meerqat.fr) (2020 - 2024) - ANR
 - Curated Media (2014 - 2017) -- FUI 17

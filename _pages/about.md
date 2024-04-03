@@ -10,6 +10,7 @@ My research is in the area of **computer vision** with a particular interest on 
 
 ## Main public projects
 * the STUDIES (ANR 2024 - 2027) project
+* the [SHARP](https://project.inria.fr/sharp/) (PEPR IA 2023 - 2027) project aims to design, analyze and deploy intrinsically frugal models (neural or not) able to achieve the versatility and performance of the best models while requiring only a vanishing fraction of the resources currently needed.
 * the [Vanguard](https://vanguard-horizon.eu/) (EU Horizon 2023-2026) project aims to strengthen the fight against trafficking in human beings through the provision of improved intelligence picture, delivery of advanced and trustworthy suite of tools, and realisation of innovative training activities.
 * the [Meerqat project](https://www.meerqat.fr/) (ANR 2019 - 2024) proposes to tackle the problem of analyzing ambiguous visual and textual content by learning and combining their representations and by taking into account the existing knowledge about entities
 * the [AI4MEDIA project](https://www.ai4media.eu/) (EU H2020 - 2024) aspires to become a Centre of Excellence engaging a wide network of researchers across Europe and beyond, focusing on delivering the next generation of core AI advances and training to serve the Media sector, while ensuring that the European values of ethical and trustworthy AI are embedded in future AI deployments.
