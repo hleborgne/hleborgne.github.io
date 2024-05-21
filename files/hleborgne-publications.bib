@@ -43,8 +43,9 @@
   year      = {2024},
   author    = {Perla Doubinsky and Nicolas Audebert and Michel Crucianu and Herv{\'{e}} {Le Borgne}},
   utl_PDF   = {https://openaccess.thecvf.com/content/WACV2024/papers/Doubinsky_Semantic_Generative_Augmentations_for_Few-Shot_Counting_WACV_2024_paper.pdf},
-  url_supp = {https://openaccess.thecvf.com/content/WACV2024/supplemental/Doubinsky_Semantic_Generative_Augmentations_WACV_2024_supplemental.pdf},
+  url_supp  = {https://openaccess.thecvf.com/content/WACV2024/supplemental/Doubinsky_Semantic_Generative_Augmentations_WACV_2024_supplemental.pdf},
   url_HAL   = {https://hal.science/hal-04259058},
+  url_Code  = {https://github.com/perladoubinsky/SemAug},
   url_video = {https://www.youtube.com/watch?v=6coxHpfxxDA},
   abstract  = {With the availability of powerful text-to-image diffusion models, recent works have explored the use of synthetic data to improve image classification performances. These works show that it can effectively augment or even replace real data. In this work, we investigate how synthetic data can benefit few-shot class-agnostic counting. This requires to generate images that correspond to a given input number of objects. However, text-to-image models struggle to grasp the notion of count. We propose to rely on a double conditioning of Stable Diffusion with both a prompt and a density map in order to augment a training dataset for few-shot counting. Due to the small dataset size, the fine-tuned model tends to generate images close to the training images. We propose to enhance the diversity of synthesized images by exchanging captions between images thus creating unseen configurations of object types and spatial layout. Our experiments show that our diversified generation strategy significantly improves the counting accuracy of two recent and performing few-shot counting models on FSC147 and CARPK.},
   keywords  = {conf-int,generative-models}
@@ -58,7 +59,8 @@
   volume   = {73},
   pages    = {1-9},
   url      = {https://doi.org/10.1109/TIM.2024.3368486},
-  url_PDF  = {https://cea.hal.science/cea-04099065v2/file/HoDetec_article.pdf},
+  url_HAL  = {https://cea.hal.science/cea-04099065/file/HoDetec_article.pdf},
+  url_PDF  = {https://arxiv.org/pdf/2401.10958},
   abstract = {This paper explores a semi-supervised object detection approach to detect thermal events on the internal wall of tokamaks. A huge amount of data is produced during an experimental campaign by the infrared (IR) viewing systems used to monitor the inner thermal shields during machine operation. The amount of data to be processed and analyzed is such that protecting the first wall is an overwhelming job. Automatizing this job with artificial intelligence (AI) is an attractive solution, but AI requires large labelled datasets that are not readily available for tokamak walls. Semi-supervised learning (SSL) is a possible solution to being able to train deep learning models with a small amount of labelled data and a large amount of unlabelled data. SSL is explored as a possible tool to rapidly adapt a model trained on an experimental campaign A of tokamak WEST to a new experimental campaign B by using labelled data from campaign A , a little labelled data from campaign B and a lot of unlabelled data from campaign B . Model performance is evaluated on two labelled datasets and two methods including semi-supervised learning. Semi-supervised learning increased the mAP metric by over six percentage points on the first smaller-scale database and over four percentage points on the second larger-scale dataset depending on the method employed.},
   keywords = {journal-int, semi-supervised-learning}
 }
@@ -68,6 +70,8 @@
   booktitle = {International Conference on Image Processing (ICIP)},
   title     = {Generalized pseudo-labeling in consistency regularization for semi-supervised learning},
   year      = {2023},
+  doi       = {10.1109/ICIP49359.2023.10221965},
+  url_PDF   = {https://cea.hal.science/cea-04503203/file/GPL_ICIP_NoteIEEE.pdf},
   keywords  = {conf-int,semi-supervised-learning}
 }
 
@@ -76,8 +80,8 @@
   booktitle = {International Conference on Content-Based Multimedia Indexing},
   year      = {2023},
   author    = {Perla Doubinsky and Nicolas Audebert and Michel Crucianu and Herv{\'{e}} {Le Borgne}},
-  url_arXiv = {https://arxiv.org/abs/2304.10508},
   url_PDF   = {https://arxiv.org/pdf/2304.10508.pdf},
+  url_Code  = {https://github.com/perladoubinsky/latent-wasserstein},
   abstract  = {The latent space of GANs contains rich semantics reflecting the training data. Different methods propose to learn edits in latent space corresponding to semantic attributes, thus allowing to modify generated images. Most supervised methods rely on the guidance of classifiers to produce such edits. However, classifiers can lead to out-of-distribution regions and be fooled by adversarial samples. We propose an alternative formulation based on the Wasserstein loss that avoids such problems, while maintaining performance on-par with classifier-based approaches. We demonstrate the effectiveness of our method on two datasets (digits and faces) using StyleGAN2.},
   keywords  = {conf-int,generative-models}
 }
@@ -85,11 +89,10 @@
   author    = {Hanouti, Celina and {Le Borgne}, Herv{\'{e}} },
   title     = {Learning Semantic Ambiguities for Zero-Shot Learning},
   journal   = {Multimedia Tools and Applications},
-  volume    = {},
-  pages     = {},
+  volume    = {82},
+  pages     = {40745–40759},
   year      = {2023},
   doi       = {10.1007/s11042-023-14877-1},
-  url_arXiv = {https://arxiv.org/abs/2201.01823},
   url_PDF   = {https://arxiv.org/pdf/2201.01823.pdf},
   url       = {https://link.springer.com/article/10.1007/s11042-023-14877-1},
   abstract  = {Zero-shot learning (ZSL) aims at recognizing classes for which no visual sample is available at training time. To address this issue, one can rely on a semantic description of each class. A typical ZSL model learns a mapping between the visual samples of seen classes and the corresponding semantic descriptions, in order to do the same on unseen classes at test time. State of the art approaches rely on generative models that synthesize visual features from the prototype of a class, such that a classifier can then be learned in a supervised manner. However, these approaches are usually biased towards seen classes whose visual instances are the only one that can be matched to a given class prototype. We propose a regularization method that can be applied to any conditional generative-based ZSL method, by leveraging only the semantic class prototypes. It learns to synthesize discriminative features for possible semantic description that are not available at training time, that is the unseen ones. The approach is evaluated for ZSL and GZSL on four datasets commonly used in the literature, either in inductive and transductive settings, with results on-par or above state of the art approaches.},
@@ -134,6 +137,8 @@
   series    = {SIGIR '22},
   url_HAL   = {https://universite-paris-saclay.hal.science/hal-03650618/document},
   url_Code  = {https://github.com/PaulLerner/ViQuAE},
+  abstract  = {Whether to retrieve, answer, translate, or reason, multimodality opens up new challenges and perspectives. In this context, we are interested in answering questions about named entities grounded in a visual context using a Knowledge Base (KB). To benchmark this task, called KVQAE (Knowledge-based Visual Question Answering about named Entities), we provide ViQuAE, a dataset of 3.7K questions paired with images. This is the first KVQAE dataset to cover a wide range of entity types (e.g. persons, landmarks, and products). The dataset is annotated using a semi-automatic method. We also propose a KB composed of 1.5M Wikipedia articles paired with images. To set a baseline on the benchmark, we address KVQAE as a two-stage problem: Information Retrieval and Reading Comprehension, with both zero- and few-shot learning methods. The experiments empirically demonstrate the difficulty of the task, especially when questions are not about persons. This work paves the way for better multimodal entity representations and question answering. The dataset, KB, code, and semi-automatic annotation pipeline are
+freely available at https://github.com/PaulLerner/ViQuAE.},
   keywords  = {conf-int,kvqae}
 }
 
