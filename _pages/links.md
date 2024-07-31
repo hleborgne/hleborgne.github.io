@@ -61,22 +61,25 @@ classes: wide
 - [Adrian Popescu](https://scholar.google.com/citations?user=fjsa2GYAAAAJ&hl=en)
 - [Olivier Ferret](http://oferret.free.fr/index.html)
 - [Romaric Besançon](https://scholar.google.com/citations?user=9CiniHsAAAAJ&hl=en)
-- [Julien Tourille](https://jtourille.github.io/)
+- [Julien Tourille](https://jtourille.github.io/) (now at EDF)
 - [Benjamin Labbé](https://scholar.google.com/citations?user=TqcbFrAAAAAJ&hl=en)
 - [Quoc Cuong Pham](https://scholar.google.fr/citations?user=3rZlzWQAAAAJ&hl=fr)
 - [Raphaël Mitteau](https://scholar.google.com/citations?user=KY-WWgoAAAAJ&hl=fr)
+- [Bertrand Luvison](https://scholar.google.fr/citations?user=eunSkCQAAAAJ&hl=fr)
 
 #### Colleagues not at CEA (co-supervision)
+- [Marin Ferecatu](https://cedric.cnam.fr/~ferecatu/pmwiki/Main/HomePage)
+- [Sahar Ghannay](https://saharghannay.github.io/)
 - [Céline Hudelot](https://hudelotc.github.io/)
 - [Michel Crucianu](http://cedric.cnam.fr/~crucianm/)
 - [Nicolas Audebert](https://nicolas.audebert.at/)
-- [Brigitte Grau](https://perso.limsi.fr/bg/)
+- [Brigitte Grau](https://scholar.google.fr/citations?user=tao6t8IAAAAJ&hl=fr)
 - [Nikos Paragios](https://en.wikipedia.org/wiki/Nikos_Paragios)
-- [Isabelle Bloch](http://perso.telecom-paristech.fr/bloch)
 - [Noel O'Connor](https://www.insight-centre.org/our-team/prof-noel-oconnor/)
+<!--- [Isabelle Bloch](http://perso.telecom-paristech.fr/bloch)-->
 
 #### Post-doc
-- Charles Villad (since 2024) with Mohamed Ouerfelli and Nicolas Granger
+- [Charles Villard](https://silvanosky.me/) (since 2024) with Mohamed Ouerfelli and Nicolas Granger
 - Perla Doubinsky (since 2024)
 - Omar Adjali (2022-2024) with Olivier Ferret and Sahar Ghannay
 - Aysun Sezer (2021-2024) with Nicolas Allezard, Roberto Miorelli and Julie Escoda
@@ -88,7 +91,7 @@ classes: wide
 #### Ph.D. students
 - Alexandre Fournier-Mongieux (since 2023) with Adrian Popescu and Bertrand Luvison
 - Katia Benali (since 2023) with Marin Ferecatu
-- Paul Grimal (since 2022) with Julien Tourille and Olivier Ferret
+- [Paul Grimal](https://scholar.google.com/citations?user=0ZcYaHMAAAAJ&hl=fr) (since 2022) with Julien Tourille and Olivier Ferret
 - Saad Lahlali (since 2022) with Nicolas Granger and Quoc Cuong Pham
 - Perla Doubinsky (2020-2024) with Nicolas Audebert and Michel Crucianu
 - Adrian Bojko (2018-2022) with Romain Dupont and Mohamed Tamaazousti

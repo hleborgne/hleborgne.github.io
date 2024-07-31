@@ -9,7 +9,7 @@ redirect_from:
 My research is in the area of **computer vision** with a particular interest on **relating visual and textual content** and **visual generative models**. I work at [CEA-List](https://list.cea.fr/en/), that is associated with [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en).
 
 ## Main public projects
-* the [STUDIES](https://anr.fr/Project-ANR-23-CE38-0014) (2023-2027) project ais at automatically conducting die studies at a large scale to better understand Ancient Numismatics.
+* the [STUDIES](https://anr.fr/Project-ANR-23-CE38-0014) (2023-2027) project aims at automatically conducting die studies at a large scale to better understand Ancient Numismatics.
 * the [SHARP](https://project.inria.fr/sharp/) (PEPR IA 2023 - 2027) project aims to design, analyze and deploy intrinsically frugal models (neural or not) able to achieve the versatility and performance of the best models while requiring only a vanishing fraction of the resources currently needed.
 * the [Vanguard](https://vanguard-horizon.eu/) (EU Horizon 2023-2026) project aims to strengthen the fight against trafficking in human beings through the provision of improved intelligence picture, delivery of advanced and trustworthy suite of tools, and realisation of innovative training activities.
 * the [Deepgreen](https://deepgreen.ai/) project that aims to develop an embedded artificial intelligence model that combines sovereignty, trust and frugality, by developping the Eclipse [AIDGE](https://gitlab.eclipse.org/eclipse/aidge/aidge) open source software platform.
