@@ -24,6 +24,7 @@ classes: wide
 
 ## Projects I worked on
 #### International
+- [VANGUARD](https://vanguard-horizon.eu/) (2023-2026) -- EU-Horizon
 - [AI4MEDIA](https://www.ai4media.eu/) (2020-2024) -- EU-H2020
 - [CPS4EU](https://cps4eu.eu/) (2019-2022) -- EU-H2020
 - [USEMP](https://usemp.eu) (2013 - 2016) -- EU-FP7 
@@ -31,9 +32,10 @@ classes: wide
 - ReSend (2005 - 2006) -- Ulysses program
 
 #### National
+- [STUDIES](https://anr.fr/Project-ANR-23-CE38-0014) (2023-2027) -- ANR
 - [SHARP](https://project.inria.fr/sharp/) (2023-2027) - France 2030 [PEPR IA](https://www.pepr-ia.fr/projet/sharp/)
 - [Deepgreen](https://anr.fr/fileadmin/aap/2022/france2030-ami-IA-deepgreen.pdf) (2023 - 2026) - France 2030
-- [Meerqat](https://www.meerqat.fr) (2020 - 2024) - ANR
+- [Meerqat](https://www.meerqat.fr) (2020-2024) -- ANR
 - Curated Media (2014 - 2017) -- FUI 17
 - Datascale (2014-2016) -- PIA
 - YOJI (2009 - 2012) -- ANR/DGA
@@ -74,17 +76,21 @@ classes: wide
 - [Noel O'Connor](https://www.insight-centre.org/our-team/prof-noel-oconnor/)
 
 #### Post-doc
-- Omar Adjali (2022-2024) with O. Ferret and Sahar Ghannay
-- Aysun Sezer (2021-2024) with N. Allezard, R. Miorelli and J. Escoda
-- Omar Adjali (2018-2019) with B. Grau, R. Besançon and O. Ferret
-- Hani Daher (2015-2016) with R. Besançon, O. Ferret and A.L. Daquo
+- Charles Villad (since 2024) with Mohamed Ouerfelli and Nicolas Granger
+- Perla Doubinsky (since 2024)
+- Omar Adjali (2022-2024) with Olivier Ferret and Sahar Ghannay
+- Aysun Sezer (2021-2024) with Nicolas Allezard, Roberto Miorelli and Julie Escoda
+- Omar Adjali (2018-2019) with Brigitte Grau, Romaric Besançon and Olivier Ferret
+- Hani Daher (2015-2016) with Romaric Besançon, Olivier Ferret and Anne-Laure Daquo
 - Phong Vo (2014-2016) with Adrian Popescu and Alexandru Ginsca
 - Aymen Shabou (2011-2012)
 
 #### Ph.D. students
+- Alexandre Fournier-Mongieux (since 2023) with Adrian Popescu and Bertrand Luvison
+- Katia Benali (since 2023) with Marin Ferecatu
 - Paul Grimal (since 2022) with Julien Tourille and Olivier Ferret
 - Saad Lahlali (since 2022) with Nicolas Granger and Quoc Cuong Pham
-- Perla Doubinsky (since 2020) with Nicolas Audebert and Michel Crucianu
+- Perla Doubinsky (2020-2024) with Nicolas Audebert and Michel Crucianu
 - Adrian Bojko (2018-2022) with Romain Dupont and Mohamed Tamaazousti
 - Antoine Plumerault (2018-2020, defended in 2023) with Céline Hudelot
 - Yannick Le Cacheux (2017-2020) with Michel Crucianu
@@ -93,10 +99,11 @@ classes: wide
 - Amel Znaidia (2010-2014) with Nikos Paragios and Céline Hudelot
 
 #### Engineer
-- Christian Staron (2021-2023) with N. Allezard, R. Mitteau and E. Grelier 
+- Christian Staron (2021-2023) with Nicolas Allezard, Raphaël Mitteau and Erwan Grelier 
 - Etienne Gadeski (2014-2016) with Adrian Popescu
 
 #### Master M2
+- Clément Cornet (2024, with Romaric Besançon)
 - Alexandre Fournier Montgieux (2023, with Adrian Popescu)
 - Paul Grimal (2022)
 - Celina Hanouti (2021)
