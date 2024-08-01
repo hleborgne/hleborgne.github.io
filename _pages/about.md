@@ -31,8 +31,7 @@ Mailing address: CEA Saclay - Nano-INNOV, DRT/LIST/DIASI/SIALV/LASTI, Bat 861 - 
 Hervé Le Borgne is a researcher at the CEA-List since 2006, carrying out research on computer vision and focusing on the links between visual and textual content. Previously, he received his Ph.D. from the INP Grenoble in 2004 and worked as a post-doc at Dublin City university from 2004 to 2006. He published more than 60 articles in international conferences and journals dealing with computer vision, multimedia retrieval, text-to-image models and more generally multimedia mining in order to extract semantic. He has served as a reviewer for several international conferences and journals, including CVPR, ICCV, ACM Multimedia, IEEE T. PAMI and IEEE T. Multimedia. He has been a project manager since 2006, both for public funded projects and industrial contracts. He supervised 20 master students and co-advised seven Ph.D. in collaboration with [CentraleSupelec](https://www.centralesupelec.fr/en) and [CNAM](https://www.cnam.eu/site-en/).
 
 ### Positions and Education
-- since 2019: researcher at the [Laboratory of Semantic Analysis of Texts and Images](
-cea-list-lasti.github.io) (CEA-List)
+- since 2019: researcher at the [Laboratory of Semantic Analysis of Texts and Images](https://cea-list-lasti.github.io) (CEA-List)
 - 2010 - 2019: researcher at the [Vision and Content Engineering Laboratory](https://kalisteo.cea.fr/index.php/ai/) (CEA-List)
 - 2006 - 2010: researcher at the Laboratoire d'Ingenierie de la Connaissance Multimedia et Multilingue (CEA-List)
 - 2004 - 2006: post doc with [Noel O'Connor](https://www.insight-centre.org/our-team/prof-noel-oconnor/) (CDVP, [Dublin City University](https://www.dcu.ie/), Ireland)
