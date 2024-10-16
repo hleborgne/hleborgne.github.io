@@ -80,7 +80,7 @@ classes: wide
 
 #### Post-doc
 - [Charles Villard](https://silvanosky.me/) (since 2024) with Mohamed Ouerfelli and Nicolas Granger
-- Perla Doubinsky (since 2024)
+- [Perla Doubinsky](https://scholar.google.com/citations?hl=en&user=1_JFcfkAAAAJ) (since 2024)
 - Omar Adjali (2022-2024) with Olivier Ferret and Sahar Ghannay
 - Aysun Sezer (2021-2024) with Nicolas Allezard, Roberto Miorelli and Julie Escoda
 - Omar Adjali (2018-2019) with Brigitte Grau, Romaric Besançon and Olivier Ferret
@@ -89,21 +89,21 @@ classes: wide
 - Aymen Shabou (2011-2012)
 
 #### Ph.D. students
-- Alexandre Fournier-Mongieux (since 2023) with Adrian Popescu and Bertrand Luvison
+- Alexandre Fournier-Montgieux (since 2023) with Adrian Popescu and Bertrand Luvison
 - Katia Benali (since 2023) with Marin Ferecatu
 - [Paul Grimal](https://scholar.google.com/citations?user=0ZcYaHMAAAAJ&hl=fr) (since 2022) with Julien Tourille and Olivier Ferret
 - Saad Lahlali (since 2022) with Nicolas Granger and Quoc Cuong Pham
 - Perla Doubinsky (2020-2024) with Nicolas Audebert and Michel Crucianu
-- Adrian Bojko (2018-2022) with Romain Dupont and Mohamed Tamaazousti
+- [Adrian Bojko](https://scholar.google.fr/citations?hl=fr&user=FniczgQAAAAJ) (2018-2022) with Romain Dupont and Mohamed Tamaazousti
 - Antoine Plumerault (2018-2020, defended in 2023) with Céline Hudelot
-- Yannick Le Cacheux (2017-2020) with Michel Crucianu
-- Youssef Tamaazousti (2015-2018) with Céline Hudelot
+- [Yannick Le Cacheux](https://scholar.google.fr/citations?user=eqBm0hYAAAAJ&hl=fr) (2017-2020) with Michel Crucianu
+- [Youssef Tamaazousti](https://scholar.google.fr/citations?user=NusZJSYAAAAJ&hl=fr) (2015-2018) with Céline Hudelot
 - Nhi Quynh Tran (2013-2017) with Michel Crucianu
-- Amel Znaidia (2010-2014) with Nikos Paragios and Céline Hudelot
+- [Amel Znaidia](https://scholar.google.fr/citations?hl=fr&user=zkVgSg8AAAAJ) (2010-2014) with Nikos Paragios and Céline Hudelot
 
 #### Engineer
 - Christian Staron (2021-2023) with Nicolas Allezard, Raphaël Mitteau and Erwan Grelier 
-- Etienne Gadeski (2014-2016) with Adrian Popescu
+- [Etienne Gadeski](https://scholar.google.fr/citations?hl=fr&user=wDJlmpkAAAAJ) (2014-2016) with Adrian Popescu
 
 #### Master M2
 - Clément Cornet (2024, with Romaric Besançon)
@@ -112,10 +112,10 @@ classes: wide
 - Celina Hanouti (2021)
 - Véra Maiboroda (2020)
 - Souhaiel Riahi (2019, with Youssef Tamaazousti)
-- Julien Girard (2018, with Youssef Tamaazousti)
-- Dorian Kodelja (2016, with Laurent Lucat)
+- [Julien Girard](https://scholar.google.fr/citations?hl=fr&user=erWN5TwAAAAJ) (2018, with Youssef Tamaazousti)
+- [Dorian Kodelja](https://scholar.google.fr/citations?hl=fr&user=TneB7GwAAAAJ) (2016, with Laurent Lucat)
 - Youssef Tamaazousti (2015, with Adrian Popescu)
-- Astrid Orcesi (2015, with Laurent Lucat)
+- [Astrid Orcesi](https://scholar.google.fr/citations?user=60Dcn8YAAAAJ&hl=fr&oi=ao) (2015, with Laurent Lucat)
 - Léo Jean (2014)
 - Etienne Gadeski (2013)
 - Amin Fehri (2013)
@@ -124,7 +124,7 @@ classes: wide
 - Pablo Munoz-Fuentes (2010)
 - Tasnim Hedoui (2010)
 - Debora Myoupo (2009)
-- Nicolas Honnorat (2008)
+- [Nicolas Honnorat](https://scholar.google.fr/citations?hl=fr&user=2Rvz26EAAAAJ) (2008)
 - Laurent Sauvage (2007)
 - Michael Blighe (2006, with Noel O'Connor)
 - Jovanka Malobabic (2005, with Noel O'Connor)
