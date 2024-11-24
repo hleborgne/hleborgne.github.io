@@ -24,6 +24,34 @@
 
 @string{arXiv  = "arXiv"}
 
+@inproceedings{afm2025fairer_analysis,
+  author = {Fournier-Montgieux, Alexandre and Soumm, Michael and Popescu, Adrian and Luvison, Bertrand and Le Borgne, Herv{\'e}},
+  booktitle = {Winter Conference on Applications of Computer Vision (WACV)},
+  title = {Fairer Analysis and Demographically Balanced Face Generation for Fairer Face Verification},
+  year = {2025},
+  keywords  = {conf-int,generative-models,trustworthy-AI}
+}
+
+@inproceedings{lahlali2025alpi,
+  author = {Lahlali, Saad and Granger, Nicolas and Le Borgne, Herv{\'e} and Pham, Quoc-Cuong},
+  booktitle = {Winter Conference on Applications of Computer Vision (WACV)},
+  title = {ALPI: Auto-Labeller with Proxy Injection for 3D Object Detection using 2D Labels Only},
+  year = {2025},
+  keywords  = {conf-int,frugal-supervised-learning}
+}
+
+@inproceedings{adjali2024emnlp,
+  title     = {Multi-Level Information Retrieval Augmented Generation for Knowledge-based Visual Question Answering},
+  author    = {Adjali, Omar and Ferret, Olivier and Ghannay, Sahar and {Le Borgne}, Herv{\'e}},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  location  = {Miami, Florida, USA},
+  year      = {2024},
+  url_PDF   = {https://aclanthology.org/2024.emnlp-main.922.pdf},
+  url_code  = {https://github.com/OA256864/MiRAG},
+  abstract  = {The Knowledge-Aware Visual Question Answering about Entity task aims to disambiguate entities using textual and visual information, as well as knowledge. It usually relies on two independent steps, information retrieval then reading comprehension, that do not benefit each other. Retrieval Augmented Generation (RAG) offers a solution by using generated answers as feedback for retrieval training. RAG usually relies solely on pseudo-relevant passages retrieved from external knowledge bases which can lead to ineffective answer generation. In this work, we propose a multi-level information RAG approach that enhances answer generation through entity retrieval and query expansion. We formulate a joint-training RAG loss such that answer generation is conditioned on both entity and passage retrievals. We show through experiments new state-of-the-art performance on the VIQuAE KB-VQA benchmark and demonstrate that our approach can help retrieve more actual relevant knowledge to generate accurate answers.},
+  keywords  = {conf-int,kvqae}
+}
+
 @inproceedings{cornet2024automaticdiestudiesancient,
       title     = {Automatic Die Studies for Ancient Numismatics}, 
       author    = {Clément Cornet and Héloïse Aumaître and Romaric Besançon and Julien Olivier and Thomas Faucher and Hervé Le Borgne},
@@ -71,7 +99,7 @@
   url_HAL  = {https://cea.hal.science/cea-04099065/file/HoDetec_article.pdf},
   url_PDF  = {https://arxiv.org/pdf/2401.10958},
   abstract = {This paper explores a semi-supervised object detection approach to detect thermal events on the internal wall of tokamaks. A huge amount of data is produced during an experimental campaign by the infrared (IR) viewing systems used to monitor the inner thermal shields during machine operation. The amount of data to be processed and analyzed is such that protecting the first wall is an overwhelming job. Automatizing this job with artificial intelligence (AI) is an attractive solution, but AI requires large labelled datasets that are not readily available for tokamak walls. Semi-supervised learning (SSL) is a possible solution to being able to train deep learning models with a small amount of labelled data and a large amount of unlabelled data. SSL is explored as a possible tool to rapidly adapt a model trained on an experimental campaign A of tokamak WEST to a new experimental campaign B by using labelled data from campaign A , a little labelled data from campaign B and a lot of unlabelled data from campaign B . Model performance is evaluated on two labelled datasets and two methods including semi-supervised learning. Semi-supervised learning increased the mAP metric by over six percentage points on the first smaller-scale database and over four percentage points on the second larger-scale dataset depending on the method employed.},
-  keywords = {journal-int, semi-supervised-learning}
+  keywords = {journal-int, frugal-supervised-learning}
 }
 
 @inproceedings{karaliolios2023gpl,
@@ -81,7 +109,7 @@
   year      = {2023},
   doi       = {10.1109/ICIP49359.2023.10221965},
   url_PDF   = {https://cea.hal.science/cea-04503203/file/GPL_ICIP_NoteIEEE.pdf},
-  keywords  = {conf-int,semi-supervised-learning}
+  keywords  = {conf-int,frugal-supervised-learning}
 }
 
 @inproceedings{doubinsky2023wasserstein,
@@ -281,7 +309,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     url_code = {https://github.com/youssefTamaazousti/MuldipNet-tensorflow},
     note    = {(online pre-print, 30 april 2019)},
     abstract = {A representation is supposed universal if it encodes any element of the visual world (e.g., objects, scenes) in any configuration (e.g., scale, context). While not expecting pure universal representations, the goal in the literature is to improve the universality level, starting from a representation with a certain level. To do so, the state-of-the-art consists in learning CNN-based representations on a diversified training problem (e.g., ImageNet modified by adding annotated data). While it effectively increases universality, such approach still requires a large amount of efforts to satisfy the needs in annotated data. In this work, we propose two methods to improve universality, but pay special attention to limit the need of annotated data. We also propose a unified framework of the methods based on the diversifying of the training problem. Finally, to better match Atkinson’s cognitive study about universal human representations, we proposed to rely on the transfer-learning scheme as well as a new metric to evaluate universality. This latter, aims us to demonstrates the interest of our methods on 10 target-problems, relating to the classification task and a variety of visual domains.},
-    keywords = {journal-int}
+    keywords = {journal-int,frugal-supervised-learning}
 }
 
 @inproceedings{lecacheux2019iccv,
@@ -319,7 +347,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     url_PDF   = {http://bmvc2018.org/contents/papers/1021.pdf},
     url_supp  = {http://bmvc2018.org/contents/supplementary/pdf/1021_supp.pdf},
     abstract  = {Many real-world visual recognition use-cases can not directly benefit from state-of-the-art CNN-based approaches because of the lack of many annotated data. The usual approach to deal with this is to transfer a representation pre-learned on a large annotated source-task onto a target-task of interest. This raises the question of how well the original representation is “universal”, that is to say directly adapted to many different target-tasks. To improve such universality, the state-of-the-art consists in training networks on a diversified source problem, that is modified either by adding generic or specific categories to the initial set of categories. In this vein, we proposed a method that exploits finer-classes than the most specific ones existing, for which no annotation is available. We rely on unsupervised learning and a bottom-up split and merge strategy. We show that our method learns more universal representations than state-of-the-art, leading to significantly better results on 10 target-tasks from multiple domains, using several network architectures, either alone or combined with networks learned at a coarser semantic level.},
-    keywords  = {conf-int}
+    keywords  = {conf-int,frugal-supervised-learning}
 }
 
 @article{tamaazousti2017cviu,
@@ -345,7 +373,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     month    = {1},
     note     = {on line jan 2017},
     doi      = {10.1016/j.cviu.2017.01.009},
-    keywords = {journal-int}
+    keywords = {journal-int,frugal-supervised-learning}
 }
 
 @article{gadeski2017mtap,
@@ -399,7 +427,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
  url_code     = {https://github.com/youssefTamaazousti/MuldipNet-tensorflow},
  doi          = {10.1109/CVPR.2017.561},
  abstract     = {In a transfer-learning scheme, the intermediate layers of a pre-trained CNN are employed as universal image representation to tackle many visual classification problems. The current trend to generate such representation is to learn a CNN on a large set of images labeled among the most specific categories. Such processes ignore potential relations between categories, as well as the categorical-levels used by humans to classify. In this paper, we propose Multi Categorical-Level Networks (MuCaLe-Net) that include human-categorization knowledge into the CNN learning process. A MuCaLe-Net separates generic categories from each other while it independently distinguishes specific ones. It thereby generates different features in the intermediate layers that are complementary when combined together. Advantageously, our method does not require additive data nor annotation to train the network. The extensive experiments over four publicly available benchmarks of image classification exhibit state-of-the-art performances.},
- keywords     = {conf-int}
+ keywords     = {conf-int,frugal-supervised-learning}
 }
 
 @inproceedings{daher2017cicling,
@@ -424,7 +452,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   month     = {6},
   url_PDF   = {https://openaccess.thecvf.com/content_cvpr_2016/papers/Tran_Aggregating_Image_and_CVPR_2016_paper.pdf},
   abstract  = {Cross-modal tasks occur naturally for multimedia content that can be described along two or more modalities like visual content and text. Such tasks require to" translate" information from one modality to another. Methods like kernelized canonical correlation analysis (KCCA) attempt to solve such tasks by finding aligned subspaces in the description spaces of different modalities. Since they favor correlations against modality-specific information, these methods have shown some success in both cross-modal and bi-modal tasks. However, we show that a direct use of the subspace alignment obtained by KCCA only leads to coarse translation abilities. To address this problem, we first put forward here a new representation method that aggregates information provided by the projections of both modalities on their aligned subspaces. We further suggest a method relying on neighborhoods in these subspaces to complete uni-modal information. Our proposal exhibits state-of-the-art results for bi-modal classification on Pascal VOC07 and for cross-modal retrieval on FlickR 8K and FlickR 30K.},
-  keywords  = {conf-int}
+  keywords  = {conf-int,trustworthy-AI}
 }
 
 @inproceedings{tamaazousti16icmr_cbs,
@@ -479,7 +507,8 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   pages     = {1-6},
   url_PDF   = {https://hleborgne.github.io/files/vo2015cbmi.pdf},
   doi       = {10.1109/CBMI.2015.7153607},
-  abstract  = {Deep convolutional networks have recently shown very interesting performance in a variety of computer vision tasks. Besides network architecture optimization, a key contribution to their success is the availability of training data. Network training is usually done with manually validated data but this approach has a significant cost and poses a scalability problem. Here we introduce an innovative pipeline that combines weakly-supervised image reranking methods and network fine-tuning to effectively train convolutional networks from noisy Web collections. We evaluate the proposed training method versus the conventional supervised training on cross-domain classification tasks. Results show that our method outperforms the conventional method in all of the three datasets. Our findings open opportunities for researchers and practitioners to use convolutional networks with inexpensive training cost.}
+  abstract  = {Deep convolutional networks have recently shown very interesting performance in a variety of computer vision tasks. Besides network architecture optimization, a key contribution to their success is the availability of training data. Network training is usually done with manually validated data but this approach has a significant cost and poses a scalability problem. Here we introduce an innovative pipeline that combines weakly-supervised image reranking methods and network fine-tuning to effectively train convolutional networks from noisy Web collections. We evaluate the proposed training method versus the conventional supervised training on cross-domain classification tasks. Results show that our method outperforms the conventional method in all of the three datasets. Our findings open opportunities for researchers and practitioners to use convolutional networks with inexpensive training cost.},
+  keywords  = {conf-int,frugal-supervised-learning}
 }
 
 @Article{gadeski2014gpu_dpm,
