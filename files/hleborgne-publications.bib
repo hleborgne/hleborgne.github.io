@@ -1,35 +1,9 @@
-@string{PAMI = "IEEE T. Pattern Analysis and Machine Intelligence"}
-@string{IJCV = "International Journal of Computer Vision"}
-@string{CVIU = "International Journal of Computer Vision and Image Understanding"}
-
-@string{CVPR = "IEEE Computer Vision and Pattern Recognition (CVPR)"}
-@string{ECCV = "European Conference on Computer Vision (ECCV)"}
-@string{ICCV = "IEEE International Conference on Computer Vision (ICCV)"}
-
-@string{ACCV = "Asian Conference on Computer Vision (ACCV)"}
-@string{BMVC = "British Machine Vision Conference (BMVC)"}
-@string{ICIP = "International Conference on Image Processing"}
-@string{ICPR = "International Conference on Pattern Recognition (ICPR)"}
-
-@string{ICMR = "International Conference on Multimedia Retrieval (ICMR)"}
-@string{ACMMM = "International Conference on Multimedia"}
-
-@string{NIPS = "Advances in Neural Information Processing Systems (NeurIPS)"}
-@string{ICLR = "International Conference on Learning Representations (ICLR)"}
-@string{ICML = "International Conference on Machine Learning (ICML)"}
-
-@string{SIGIR = "SIGIR Conference on Research and Development in Information Retrieval (SIGIR)"}
-@string{ECIR = "European Conference on Information Retrieval (ECIR)"}
-@string{ECMLKDD= "Joint European Conference on Machine Learning and Knowledge Discovery in Databases"}
-
-@string{arXiv  = "arXiv"}
-
 @inproceedings{afm2025fairer_analysis,
   author = {Fournier-Montgieux, Alexandre and Soumm, Michael and Popescu, Adrian and Luvison, Bertrand and Le Borgne, Herv{\'e}},
   booktitle = {Winter Conference on Applications of Computer Vision (WACV)},
   title = {Fairer Analysis and Demographically Balanced Face Generation for Fairer Face Verification},
   year = {2025},
-  keywords  = {conf-int,generative-models,trustworthy-AI}
+  keywords  = {generative-models,trustworthy-AI}
 }
 
 @inproceedings{lahlali2025alpi,
@@ -37,7 +11,7 @@
   booktitle = {Winter Conference on Applications of Computer Vision (WACV)},
   title = {ALPI: Auto-Labeller with Proxy Injection for 3D Object Detection using 2D Labels Only},
   year = {2025},
-  keywords  = {conf-int,frugal-supervised-learning}
+  keywords  = {frugal-supervised-learning}
 }
 
 @inproceedings{adjali2024emnlp,
@@ -49,16 +23,17 @@
   url_PDF   = {https://aclanthology.org/2024.emnlp-main.922.pdf},
   url_code  = {https://github.com/OA256864/MiRAG},
   abstract  = {The Knowledge-Aware Visual Question Answering about Entity task aims to disambiguate entities using textual and visual information, as well as knowledge. It usually relies on two independent steps, information retrieval then reading comprehension, that do not benefit each other. Retrieval Augmented Generation (RAG) offers a solution by using generated answers as feedback for retrieval training. RAG usually relies solely on pseudo-relevant passages retrieved from external knowledge bases which can lead to ineffective answer generation. In this work, we propose a multi-level information RAG approach that enhances answer generation through entity retrieval and query expansion. We formulate a joint-training RAG loss such that answer generation is conditioned on both entity and passage retrievals. We show through experiments new state-of-the-art performance on the VIQuAE KB-VQA benchmark and demonstrate that our approach can help retrieve more actual relevant knowledge to generate accurate answers.},
-  keywords  = {conf-int,kvqae}
+  keywords  = {kvqae}
 }
 
 @inproceedings{cornet2024automaticdiestudiesancient,
-      title     = {Automatic Die Studies for Ancient Numismatics}, 
-      author    = {Clément Cornet and Héloïse Aumaître and Romaric Besançon and Julien Olivier and Thomas Faucher and Hervé Le Borgne},
-      year      = {2024},
-      booktitle = {3rd International Workshop on Artificial Intelligence for Digital Humanities (AI4DH@ECCV)},
-      url_code  = {https://github.com/ClementCornet/Auto-Die-Studies},
-      url_PDF   = {https://arxiv.org/abs/2407.20876}
+  title     = {Automatic Die Studies for Ancient Numismatics}, 
+  author    = {Clément Cornet and Héloïse Aumaître and Romaric Besançon and Julien Olivier and Thomas Faucher and Hervé Le Borgne},
+  year      = {2024},
+  booktitle = {3rd International Workshop on Artificial Intelligence for Digital Humanities (AI4DH@ECCV)},
+  url_code  = {https://github.com/ClementCornet/Auto-Die-Studies},
+  url_PDF   = {https://arxiv.org/abs/2407.20876},
+  keywords  = {ai4humanities}
 }
 
 @inproceedings{grimal2024tiam,
@@ -71,7 +46,7 @@
   url_Code  = {https://github.com/grimalpaul/tiam},
   url_video = {https://www.youtube.com/watch?v=668sw3hlYDo},
   abstract  = {The progress in the generation of synthetic images has made it crucial to assess their quality. While several metrics have been proposed to assess the rendering of images, it is crucial for Text-to-Image (T2I) models, which generate images based on a prompt, to consider additional aspects such as to which extent the generated image matches the important content of the prompt. Moreover, although the generated images usually result from a random starting point, the influence of this one is generally not considered. In this article, we propose a new metric based on prompt templates to study the alignment between the content specified in the prompt and the corresponding generated images. It allows us to better characterize the alignment in terms of the type of the specified objects, their number, and their color. We conducted a study on several recent T2I models about various aspects. An additional interesting result we obtained with our approach is that image quality can vary drastically depending on the latent noise used as a seed for the images. We also quantify the influence of the number of concepts in the prompt, their order as well as their (color) attributes. Finally, our method allows us to identify some latent seeds that produce better images than others, opening novel directions of research on this understudied topic.},
-  keywords  = {conf-int,generative-models}
+  keywords  = {generative-models}
 }
 
 @inproceedings{doubinsky2024semantic_augmentation_fsc,
@@ -85,7 +60,7 @@
   url_Code  = {https://github.com/perladoubinsky/SemAug},
   url_video = {https://www.youtube.com/watch?v=6coxHpfxxDA},
   abstract  = {With the availability of powerful text-to-image diffusion models, recent works have explored the use of synthetic data to improve image classification performances. These works show that it can effectively augment or even replace real data. In this work, we investigate how synthetic data can benefit few-shot class-agnostic counting. This requires to generate images that correspond to a given input number of objects. However, text-to-image models struggle to grasp the notion of count. We propose to rely on a double conditioning of Stable Diffusion with both a prompt and a density map in order to augment a training dataset for few-shot counting. Due to the small dataset size, the fine-tuned model tends to generate images close to the training images. We propose to enhance the diversity of synthesized images by exchanging captions between images thus creating unseen configurations of object types and spatial layout. Our experiments show that our diversified generation strategy significantly improves the counting accuracy of two recent and performing few-shot counting models on FSC147 and CARPK.},
-  keywords  = {conf-int,generative-models}
+  keywords  = {generative-models}
 }
 
 @article{staron2024ssl,
@@ -99,7 +74,7 @@
   url_HAL  = {https://cea.hal.science/cea-04099065/file/HoDetec_article.pdf},
   url_PDF  = {https://arxiv.org/pdf/2401.10958},
   abstract = {This paper explores a semi-supervised object detection approach to detect thermal events on the internal wall of tokamaks. A huge amount of data is produced during an experimental campaign by the infrared (IR) viewing systems used to monitor the inner thermal shields during machine operation. The amount of data to be processed and analyzed is such that protecting the first wall is an overwhelming job. Automatizing this job with artificial intelligence (AI) is an attractive solution, but AI requires large labelled datasets that are not readily available for tokamak walls. Semi-supervised learning (SSL) is a possible solution to being able to train deep learning models with a small amount of labelled data and a large amount of unlabelled data. SSL is explored as a possible tool to rapidly adapt a model trained on an experimental campaign A of tokamak WEST to a new experimental campaign B by using labelled data from campaign A , a little labelled data from campaign B and a lot of unlabelled data from campaign B . Model performance is evaluated on two labelled datasets and two methods including semi-supervised learning. Semi-supervised learning increased the mAP metric by over six percentage points on the first smaller-scale database and over four percentage points on the second larger-scale dataset depending on the method employed.},
-  keywords = {journal-int, frugal-supervised-learning}
+  keywords = { frugal-supervised-learning}
 }
 
 @inproceedings{karaliolios2023gpl,
@@ -109,7 +84,7 @@
   year      = {2023},
   doi       = {10.1109/ICIP49359.2023.10221965},
   url_PDF   = {https://cea.hal.science/cea-04503203/file/GPL_ICIP_NoteIEEE.pdf},
-  keywords  = {conf-int,frugal-supervised-learning}
+  keywords  = {frugal-supervised-learning}
 }
 
 @inproceedings{doubinsky2023wasserstein,
@@ -120,7 +95,7 @@
   url_PDF   = {https://arxiv.org/pdf/2304.10508.pdf},
   url_Code  = {https://github.com/perladoubinsky/latent-wasserstein},
   abstract  = {The latent space of GANs contains rich semantics reflecting the training data. Different methods propose to learn edits in latent space corresponding to semantic attributes, thus allowing to modify generated images. Most supervised methods rely on the guidance of classifiers to produce such edits. However, classifiers can lead to out-of-distribution regions and be fooled by adversarial samples. We propose an alternative formulation based on the Wasserstein loss that avoids such problems, while maintaining performance on-par with classifier-based approaches. We demonstrate the effectiveness of our method on two datasets (digits and faces) using StyleGAN2.},
-  keywords  = {conf-int,generative-models}
+  keywords  = {generative-models}
 }
 @article{hanouti2023lsa_zsl,
   author    = {Hanouti, Celina and {Le Borgne}, Herv{\'{e}} },
@@ -133,7 +108,7 @@
   url_PDF   = {https://arxiv.org/pdf/2201.01823.pdf},
   url       = {https://link.springer.com/article/10.1007/s11042-023-14877-1},
   abstract  = {Zero-shot learning (ZSL) aims at recognizing classes for which no visual sample is available at training time. To address this issue, one can rely on a semantic description of each class. A typical ZSL model learns a mapping between the visual samples of seen classes and the corresponding semantic descriptions, in order to do the same on unseen classes at test time. State of the art approaches rely on generative models that synthesize visual features from the prototype of a class, such that a classifier can then be learned in a supervised manner. However, these approaches are usually biased towards seen classes whose visual instances are the only one that can be matched to a given class prototype. We propose a regularization method that can be applied to any conditional generative-based ZSL method, by leveraging only the semantic class prototypes. It learns to synthesize discriminative features for possible semantic description that are not available at training time, that is the unseen ones. The approach is evaluated for ZSL and GZSL on four datasets commonly used in the literature, either in inductive and transductive settings, with results on-par or above state of the art approaches.},
-  keywords  = {journal-int,zero-shot-learning,generative-models}
+  keywords  = {zero-shot-learning,generative-models}
 }
 @inproceedings{adjali2023icmr,
   title     = {Explicit Knowledge Integration for Knowledge-Aware Visual Question Answering about Named Entities},
@@ -145,7 +120,7 @@
   url       = {https://dl.acm.org/doi/abs/10.1145/3591106.3592227},
   doi       = {10.1145/3591106.3592227},
   abstract  = {Recent years have shown an unprecedented growth of interest in Vision-Language related tasks, with the need to address the inherent challenges of integrating linguistic and visual information to solve real-world applications. Such a typical task is Visual Question Answering (VQA), which aims at answering questions about visual content. The limitations of the VQA task in terms of question redundancy and poor linguistic variability encouraged researchers to propose Knowledge-aware Visual Question Answering tasks as a natural extension of VQA. In this paper, we tackle the KVQAE (Knowledge-based Visual Question Answering about named Entities) task, which proposes to answer questions about named entities defined in a knowledge base and grounded in a visual content. In particular, beside the textual and visual information, we propose to leverage the structural information extracted from syntactic dependency trees and external knowledge graphs to help answer questions about a large spectrum of entities of various types. Thus, by combining contextual and graph-based representations using Graph Convolutional Networks (GCNs), we are able to learn meaningful embeddings for information retrieval tasks. Experiments on the KVQAE public dataset show how our approach improves the state-of-the art baselines while demonstrating the interest of injecting external knowledge to enhance multimodal information retrieval. },
-  keywords  = {conf-int,kvqae}
+  keywords  = {kvqae}
 }
 
 @inproceedings{bojko22bmvc,
@@ -155,7 +130,7 @@
   year      = {2022},
   url_PDF   = {https://bmvc2022.mpi-inf.mpg.de/0654.pdf},
   url_Poster= {https://bmvc2022.mpi-inf.mpg.de/0654_poster.pdf},
-  keywords  = {conf-int,slam}
+  keywords  = {slam}
 }
 
 @inproceedings{lerner2022viquae,
@@ -176,7 +151,7 @@
   url_Code  = {https://github.com/PaulLerner/ViQuAE},
   abstract  = {Whether to retrieve, answer, translate, or reason, multimodality opens up new challenges and perspectives. In this context, we are interested in answering questions about named entities grounded in a visual context using a Knowledge Base (KB). To benchmark this task, called KVQAE (Knowledge-based Visual Question Answering about named Entities), we provide ViQuAE, a dataset of 3.7K questions paired with images. This is the first KVQAE dataset to cover a wide range of entity types (e.g. persons, landmarks, and products). The dataset is annotated using a semi-automatic method. We also propose a KB composed of 1.5M Wikipedia articles paired with images. To set a baseline on the benchmark, we address KVQAE as a two-stage problem: Information Retrieval and Reading Comprehension, with both zero- and few-shot learning methods. The experiments empirically demonstrate the difficulty of the task, especially when questions are not about persons. This work paves the way for better multimodal entity representations and question answering. The dataset, KB, code, and semi-automatic annotation pipeline are
 freely available at https://github.com/PaulLerner/ViQuAE.},
-  keywords  = {conf-int,kvqae}
+  keywords  = {kvqae}
 }
 
 @article{doubinsky2022prl,
@@ -192,7 +167,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   url_PDF   = "https://arxiv.org/pdf/2111.00909.pdf",
   url_Code  = "https://github.com/perladoubinsky/balanced_sampling_gan_controls",
   abstract  = "Various controls over the generated data can be extracted from the latent space of a pre-trained GAN, as it implicitly encodes the semantics of the training data. The discovered controls allow to vary semantic attributes in the generated images but usually lead to entangled edits that affect multiple attributes at the same time. Supervised approaches typically sample and annotate a collection of latent codes, then train classifiers in the latent space to identify the controls. Since the data generated by GANs reflects the biases of the original dataset, so do the resulting semantic controls. We propose to address disentanglement by subsampling the generated data to remove over-represented co-occuring attributes thus balancing the semantics of the dataset before training the classifiers. We demonstrate the effectiveness of this approach by extracting disentangled linear directions for face manipulation on two popular GAN architectures, PGGAN and StyleGAN, and two datasets, CelebAHQ and FFHQ. We show that this approach outperforms state-of-the-art classifier-based methods while avoiding the need for disentanglement-enforcing post-processing.",
-  keywords  = {journal-int,generative-models}
+  keywords  = {generative-models}
 }
 
 @incollection{lecacheux2021gzsl,
@@ -207,7 +182,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   doi       = {10.1007/978-3-030-74478-6_6},
   url_PDF   = {https://arxiv.org/pdf/2102.03137.pdf},
   abstract  = {Zero-shot learning deals with the ability to recognize objects without any visual training sample. To counterbalance this lack of visual data, each class to recognize is associated with a semantic prototype that reflects the essential features of the object. The general approach is to learn a mapping from visual data to semantic prototypes, then use it at inference to classify visual samples from the class prototypes only. Different settings of this general configuration can be considered depending on the use case of interest, in particular whether one only wants to classify objects that have not been employed to learn the mapping or whether one can use unlabelled visual examples to learn the mapping. This chapter presents a review of the approaches based on deep neural networks to tackle the ZSL problem. We highlight findings that had a large impact on the evolution of this domain and list its current challenges.},
-  keywords  = {book-chap,zero-shot-learning}
+  keywords  = {zero-shot-learning}
 }
 
 @inproceedings{plumerault2020icpr,
@@ -217,7 +192,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   year      = {2021},
   url_PDF   = {https://arxiv.org/pdf/2012.11551.pdf},
   abstract  = {Among the wide variety of image generative models, two models stand out: Variational Auto Encoders (VAE) and Generative Adversarial Networks (GAN). GANs can produce realistic images, but they suffer from mode collapse and do not provide simple ways to get the latent representation of an image. On the other hand, VAEs do not have these problems, but they often generate images less realistic than GANs. In this article, we explain that this lack of realism is partially due to a common underestimation of the natural image manifold dimensionality. To solve this issue we introduce a new framework that combines VAE and GAN in a novel and complementary way to produce an auto-encoding model that keeps VAEs properties while generating images of GAN-quality. We evaluate our approach both qualitatively and quantitatively on five image datasets.},
-  keywords  = {conf-int,generative-models}
+  keywords  = {generative-models}
 }
 
 @inproceedings{bojko2020icpr,
@@ -229,7 +204,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   url_PDF   = {https://arxiv.org/pdf/2011.06259},
   year      = {2021},
   abstract  = {We present a method to automatically learn to segment dynamic objects using SLAM outliers. It requires only one monocular sequence per dynamic object for training and consists in localizing dynamic objects using SLAM outliers, creating their masks, and using these masks to train a semantic segmentation network. We integrate the trained network in ORB-SLAM 2 and LDSO. At runtime we remove features on dynamic objects, making the SLAM unaffected by them. We also propose a new stereo dataset and new metrics to evaluate SLAM robustness. Our dataset includes consensus inversions, i.e., situations where the SLAM uses more features on dynamic objects that on the static background. Consensus inversions are challenging for SLAM as they may cause major SLAM failures. Our approach performs better than the State-of-the-Art on the TUM RGB-D dataset in monocular mode and on our dataset in both monocular and stereo modes. },
-  keywords  = {conf-int,slam}
+  keywords  = {slam}
 }
 
 @inproceedings{lecacheux2020taskcv,
@@ -241,7 +216,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   doi       = {10.1007/978-3-030-66415-2_42},
   url_PDF   = {https://arxiv.org/pdf/2010.02959.pdf},
   abstract  = {Zero-shot learning aims to recognize instances of unseen classes, for which no visual instance is available during training, by learning multimodal relations between samples from seen classes and corresponding class semantic representations. These class representations usually consist of either attributes, which do not scale well to large datasets, or word embeddings, which lead to poorer performance. A good trade-off could be to employ short sentences in natural language as class descriptions. We explore different solutions to use such short descriptions in a ZSL setting and show that while simple methods cannot achieve very good results with sentences alone, a combination of usual word embeddings and sentences can significantly outperform current state-of-the-art. },
-  keywords  = {conf-int,zero-shot-learning}
+  keywords  = {zero-shot-learning}
 }
 
 @inproceedings{lecacheux2020accv,
@@ -250,7 +225,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   booktitle = "Asian Conference on Computer Vision (ACCV)",
   year      = {2020},
   url       = {https://openaccess.thecvf.com/content/ACCV2020/papers/Le_Cacheux_Webly_Supervised_Semantic_Embeddings_for_Large_Scale_Zero-Shot_Learning_ACCV_2020_paper.pdf},
-  keywords  = {conf-int,zero-shot-learning}
+  keywords  = {zero-shot-learning}
 }
 
 @inproceedings{plumerault2020iclr,
@@ -262,7 +237,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   url_PDF   = {https://arxiv.org/pdf/2001.10238.pdf},
   url_Code  = {https://github.com/AntoinePlumerault/Controlling-generative-models-with-continuous-factors-of-variations},
   abstract  = {Recent deep generative models are able to provide photo-realistic images as well as visual or textual content embeddings useful to address various tasks of computer vision and natural language processing. Their usefulness is nevertheless often limited by the lack of control over the generative process or the poor understanding of the learned representation. To overcome these major issues, very recent work has shown the interest of studying the semantics of the latent space of generative models. In this paper, we propose to advance on the interpretability of the latent space of generative models by introducing a new method to find meaningful directions in the latent space of any generative model along which we can move to control precisely specific properties of the generated image like the position or scale of the object in the image. Our method does not require human annotations and is particularly well suited for the search of directions encoding simple transformations of the generated image, such as translation, zoom or color variations. We demonstrate the effectiveness of our method qualitatively and quantitatively, both for GANs and variational auto-encoders.},
-  keywords  = {conf-int,generative-models}
+  keywords  = {generative-models}
 }
 
 @inproceedings{adjali2020ecir,
@@ -277,7 +252,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   url_PDF   = {https://arxiv.org/pdf/2104.03236.pdf},
   url_Code  = {https://github.com/OA256864/MEL_Tweets},
   abstract  = {In many information extraction applications, entity linking (EL) has emerged as a crucial task that allows leveraging information about named entities from a knowledge base. In this paper, we address the task of multimodal entity linking (MEL), an emerging research field in which textual and visual information is used to map an ambiguous mention to an entity in a knowledge base (KB). First, we propose a method for building a fully annotated Twitter dataset for MEL, where entities are defined in a Twitter KB. Then, we propose a model for jointly learning a representation of both mentions and entities from their textual and visual contexts. We demonstrate the effectiveness of the proposed model by evaluating it on the proposed dataset and highlight the importance of leveraging visual information when it is available.},
-  keywords  = {conf-int}
+  keywords  = {vision-language}
 }
 
 @inproceedings{adjali2020lrec,
@@ -292,7 +267,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   url_PDF   = {https://aclanthology.org/2020.lrec-1.528.pdf},
   url_Code  = {https://github.com/OA256864/MEL_Tweets},
   abstract  = {The task of Entity linking, which aims at associating an entity mention with a unique entity in a knowledge base (KB), is useful for advanced Information Extraction tasks such as relation extraction or event detection. Most of the studies that address this problem rely only on textual documents while an increasing number of sources are multimedia, in particular in the context of social media where messages are often illustrated with images. In this article, we address the Multimodal Entity Linking (MEL) task, and more particularly the problem of its evaluation. To this end, we propose a novel method to quasi-automatically build annotated datasets to evaluate methods on the MEL task. The method collects text and images to jointly build a corpus of tweets with ambiguous mentions along with a Twitter KB defining the entities. We release a new annotated dataset of Twitter posts associated with images. We study the key characteristics of the proposed dataset and evaluate the performance of several MEL approaches on it.},
-  keywords  = {conf-int}
+  keywords  = {vision-language}
 }
 
 @article{tamaazousti2020pami,
@@ -309,7 +284,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     url_code = {https://github.com/youssefTamaazousti/MuldipNet-tensorflow},
     note    = {(online pre-print, 30 april 2019)},
     abstract = {A representation is supposed universal if it encodes any element of the visual world (e.g., objects, scenes) in any configuration (e.g., scale, context). While not expecting pure universal representations, the goal in the literature is to improve the universality level, starting from a representation with a certain level. To do so, the state-of-the-art consists in learning CNN-based representations on a diversified training problem (e.g., ImageNet modified by adding annotated data). While it effectively increases universality, such approach still requires a large amount of efforts to satisfy the needs in annotated data. In this work, we propose two methods to improve universality, but pay special attention to limit the need of annotated data. We also propose a unified framework of the methods based on the diversifying of the training problem. Finally, to better match Atkinson’s cognitive study about universal human representations, we proposed to rely on the transfer-learning scheme as well as a new metric to evaluate universality. This latter, aims us to demonstrates the interest of our methods on 10 target-problems, relating to the classification task and a variety of visual domains.},
-    keywords = {journal-int,frugal-supervised-learning}
+    keywords = {frugal-supervised-learning}
 }
 
 @inproceedings{lecacheux2019iccv,
@@ -322,7 +297,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     url_supp  = {https://openaccess.thecvf.com/content_ICCV_2019/supplemental/Le_Cacheux_Modeling_Inter_and_ICCV_2019_supplemental.pdf},
     url_Code  = {https://github.com/yannick-lc/iccv2019-triplet-loss},
     abstract = {Recognizing visual unseen classes, i.e. for which no training data is available, is known as Zero Shot Learning (ZSL). Some of the best performing methods apply the triplet loss to seen classes to learn a mapping between visual representations of images and attribute vectors that constitute class prototypes. They nevertheless make several implicit assumptions that limit their performance on real use cases, particularly with fine-grained datasets comprising a large number of classes. We identify three of these assumptions and put forward corresponding novel contributions to address them. Our approach consists in taking into account both inter-class and intra-class relations, respectively by being more permissive with confusions between similar classes, and by penalizing visual samples which are atypical to their class. The approach is tested on four datasets, including the large-scale ImageNet, and exhibitsperformances significantly above recent methods, even generative methods based on more restrictive hypotheses.},
-    keywords  = {conf-int,zero-shot-learning}
+    keywords  = {zero-shot-learning}
 }
 
 @inproceedings{lecacheux2019mmm,
@@ -335,7 +310,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     url_PDF = {https://arxiv.org/pdf/1809.10120.pdf},
     doi     = {10.1007/978-3-030-05716-9_38},
     abstract = {Zero-shot learning (ZSL) is concerned with the recognition of previously unseen classes. It relies on additional semantic knowledge for which a mapping can be learned with training examples of seen classes. While classical ZSL considers the recognition performance on unseen classes only, generalized zero-shot learning (GZSL) aims at maximizing performance on both seen and unseen classes. In this paper, we propose a new process for training and evaluation in the GZSL setting; this process addresses the gap in performance between samples from unseen and seen classes by penalizing the latter, and enables to select hyper-parameters well-suited to the GZSL task. It can be applied to any existing ZSL approach and leads to a significant performance boost: the experimental evaluation shows that GZSL performance, averaged over eight state-of-the-art methods, is improved from 28.5 to 42.2 on CUB and from 28.2 to 57.1 on AwA2.},
-    keywords = {conf-int,zero-shot-learning}
+    keywords = {zero-shot-learning}
 }
 
 @inproceedings{girard18bmvc,
@@ -347,7 +322,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     url_PDF   = {http://bmvc2018.org/contents/papers/1021.pdf},
     url_supp  = {http://bmvc2018.org/contents/supplementary/pdf/1021_supp.pdf},
     abstract  = {Many real-world visual recognition use-cases can not directly benefit from state-of-the-art CNN-based approaches because of the lack of many annotated data. The usual approach to deal with this is to transfer a representation pre-learned on a large annotated source-task onto a target-task of interest. This raises the question of how well the original representation is “universal”, that is to say directly adapted to many different target-tasks. To improve such universality, the state-of-the-art consists in training networks on a diversified source problem, that is modified either by adding generic or specific categories to the initial set of categories. In this vein, we proposed a method that exploits finer-classes than the most specific ones existing, for which no annotation is available. We rely on unsupervised learning and a bottom-up split and merge strategy. We show that our method learns more universal representations than state-of-the-art, leading to significantly better results on 10 target-tasks from multiple domains, using several network architectures, either alone or combined with networks learned at a coarser semantic level.},
-    keywords  = {conf-int,frugal-supervised-learning}
+    keywords  = {frugal-supervised-learning}
 }
 
 @article{tamaazousti2017cviu,
@@ -362,7 +337,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     doi      = {10.1016/j.cviu.2017.05.017},
     url      = {https://www.sciencedirect.com/science/article/abs/pii/S1077314217301121},
     abstract = {This paper tackles two recent promising issues in the field of computer vision, namely “the integration of linguistic and visual information” and “the use of semantic features to represent the image content”. Semantic features represent images according to some visual concepts that are detected into the image by a set of base classifiers. Recent works exhibit competitive performances in image classification and retrieval using such features. We propose to rely on this type of image descriptions to facilitate its integration with linguistic data. More precisely, the contribution of this paper is threefold. First, we propose to automatically determine the most useful dimensions of a semantic representation according to the actual image content. Hence, it results into a level of sparsity for the semantic features that is adapted to each image independently. Our model takes into account both the confidence on each base classifier and the global amount of information of the semantic signature, defined in the Shannon sense. This contribution is further extended to better reflect the detection of a visual concept at a local scale. Second, we introduce a new strategy to learn an efficient mid-level representation by CNNs that boosts the performance of semantic signatures. Last, we propose several schemes to integrate a visual representation based on semantic features with some linguistic piece of information, leading to the nesting of linguistic information at two levels of the visual features. Experimental validation is conducted on four benchmarks (VOC 2007, VOC 2012, Nus-Wide and MIT Indoor) for classification, three of them for retrieval and two of them for bi-modal classification. The proposed semantic feature achieves state-of-the-art performances on three classification benchmarks and all retrieval ones. Regarding our vision-language integration method, it achieves state-of-the-art performances in bi-modal classification.},
-    keywords = {journal-int}
+    keywords = {}
 }
 
 @article{vo2017cviu,
@@ -373,7 +348,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     month    = {1},
     note     = {on line jan 2017},
     doi      = {10.1016/j.cviu.2017.01.009},
-    keywords = {journal-int,frugal-supervised-learning}
+    keywords = {frugal-supervised-learning}
 }
 
 @article{gadeski2017mtap,
@@ -387,7 +362,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   doi          = {10.1007/s11042-016-3619-4},
   url_PDF      = {https://hal.science/hal-01845526v1/document},
   abstract     = {Social media intelligence is interested in detecting the massive propagation of similar visual content. It can be seen, under certain conditions, as a problem of detecting near duplicate images in a stream of web data. However, in the context considered, it requires not only an efficient indexing and searching algorithm but also to be fast to compute the image description, since the total time of description and searching must be short enough to satisfy the constraint induced by the web stream flow rate. While most of methods of the state of the art focus on the efficiency at searching time, we propose a new descriptor satisfying the aforementioned requirements. We evaluate our method on two different datasets with the use of different sets of distractor images, leading to large-scale image collections (up to 100 million images). We compare our method to the state of the art and show it exhibits among the best detection performances but is much faster (one to two orders of magnitude).},
-  keywords     = {journal-int}
+  keywords     = {frugal-supervised-learning}
 }
 
 @InProceedings{popescu2017iccv_w,
@@ -400,7 +375,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
     doi          = {10.1109/ICCVW.2017.42},
     url_PDF      = {https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Popescu_Scale-Free_Content_Based_ICCV_2017_paper.pdf},
     abstract     = {When textual annotations of Web and social media images are poor or missing, content-based image retrieval is an interesting way to access them. Finding an optimal trade-off between accuracy and scalability for CBIR is challenging in practice. We propose a retrieval method whose complexity is nearly independent of the collection scale and does not degrade results quality. Images are represented with sparse semantic features that can be stored as an inverted index. Search complexity is drastically reduced by (1) considering the query feature dimensions independently and thus turning search into a concatenation operation and (2) pruning the index in function of a retrieval objective. To improve precision, the inverted index look-up is complemented with an exhaustive search over a fixed size list of intermediary results. We run experiments with three public collections and results show that our much faster method slightly outperforms an exhaustive search done with two competitive baselines.},
-    keywords     = {conf-int}
+    keywords     = {}
 }
 
 @InProceedings{chami2017icmr,
@@ -413,7 +388,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
  url_PDF      = {http://people.csail.mit.edu/ytamaaz/files/pdf/AMECON_Abstract_Meta_Concept_Features_for_Text_Illustration.pdf},
  url_slides   = {http://people.csail.mit.edu/ytamaaz/files/slides/Chami_Tamaazousti_LeBorgne_ICMR17.pdf},
  abstract     = {Cross-media retrieval is a problem of high interest that is at the frontier between computer vision and natural language processing. The state-of-the-art in the domain consists of learning a common space with regard to some constraints of correlation or similarity from two textual and visual modalities that are processed in parallel and possibly jointly. This paper proposes a different approach that considers the cross-modal problem as a supervised mapping of visual modalities to textual ones. Each modality is thus seen as a particular projection of an abstract meta-concept, each of its dimension subsuming several semantic concepts (``meta'' aspect) but may not correspond to an actual one (``abstract'' aspect). In practice, the textual modality is used to generate a multi-label representation, further used to map the visual modality through a simple shallow neural network. While being quite easy to implement, the experiments show that our approach significantly outperforms the state-of-the-art on Flickr-8K and Flickr-30K datasets for the text-illustration task},
- keywords     = {conf-int}
+ keywords     = {vision-language}
 }
 
 @InProceedings{tamaazousti2017cvpr,
@@ -427,7 +402,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
  url_code     = {https://github.com/youssefTamaazousti/MuldipNet-tensorflow},
  doi          = {10.1109/CVPR.2017.561},
  abstract     = {In a transfer-learning scheme, the intermediate layers of a pre-trained CNN are employed as universal image representation to tackle many visual classification problems. The current trend to generate such representation is to learn a CNN on a large set of images labeled among the most specific categories. Such processes ignore potential relations between categories, as well as the categorical-levels used by humans to classify. In this paper, we propose Multi Categorical-Level Networks (MuCaLe-Net) that include human-categorization knowledge into the CNN learning process. A MuCaLe-Net separates generic categories from each other while it independently distinguishes specific ones. It thereby generates different features in the intermediate layers that are complementary when combined together. Advantageously, our method does not require additive data nor annotation to train the network. The extensive experiments over four publicly available benchmarks of image classification exhibit state-of-the-art performances.},
- keywords     = {conf-int,frugal-supervised-learning}
+ keywords     = {frugal-supervised-learning}
 }
 
 @inproceedings{daher2017cicling,
@@ -440,7 +415,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   doi       = {10.1007/978-3-319-77113-7_26},
   url_PDF   = {http://people.csail.mit.edu/ytamaaz/files/pdf/Supervised_Learning_of_Entity_Disambiguation_Models_by_Negative_Sample_Selection.pdf},
   abstract  = {The objective of Entity Linking is to connect an entity mention in a text to a known entity in a knowledge base. The general approach for this task is to generate, for a given mention, a set of candidate entities from the base and determine, in a second step, the best one. This paper focuses on this last step and proposes a method based on learning a function that discriminates an entity from its most ambiguous ones. Our contribution lies in the strategy to learn efficiently such a model while keeping it compatible with large knowledge bases. We propose three strategies with different efficiency/performance trade-off, that are experimentally validated on six datasets of the TAC evaluation campaigns by using Freebase and DBpedia as reference knowledge bases.},
-  keywords  = {conf-int}
+  keywords  = {}
 }
 
 @inproceedings{tran16cvpr,
@@ -452,7 +427,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   month     = {6},
   url_PDF   = {https://openaccess.thecvf.com/content_cvpr_2016/papers/Tran_Aggregating_Image_and_CVPR_2016_paper.pdf},
   abstract  = {Cross-modal tasks occur naturally for multimedia content that can be described along two or more modalities like visual content and text. Such tasks require to" translate" information from one modality to another. Methods like kernelized canonical correlation analysis (KCCA) attempt to solve such tasks by finding aligned subspaces in the description spaces of different modalities. Since they favor correlations against modality-specific information, these methods have shown some success in both cross-modal and bi-modal tasks. However, we show that a direct use of the subspace alignment obtained by KCCA only leads to coarse translation abilities. To address this problem, we first put forward here a new representation method that aggregates information provided by the projections of both modalities on their aligned subspaces. We further suggest a method relying on neighborhoods in these subspaces to complete uni-modal information. Our proposal exhibits state-of-the-art results for bi-modal classification on Pascal VOC07 and for cross-modal retrieval on FlickR 8K and FlickR 30K.},
-  keywords  = {conf-int,trustworthy-AI}
+  keywords  = {vision-language}
 }
 
 @inproceedings{tamaazousti16icmr_cbs,
@@ -463,7 +438,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   address   = {New York, USA},
   month     = {6},
   url_PDF   = {http://people.csail.mit.edu/ytamaaz/files/pdf/Constrained_Local_Enhancement_of_Semantic_Features_by_Content-Based-Sparsity.pdf},
-  keywords  = {conf-int}
+  keywords  = {frugal-supervised-learning,vision-language}
 }
 @inproceedings{tamaazousti16icmr_dcl,
   author    = {Tamaazousti, Youssef and Le Borgne, Herv{\'e} and Hudelot, C{\'e}line},
@@ -473,7 +448,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   address   = {New York, USA},
   month     = {6},
   url_PDF   = {http://people.csail.mit.edu/ytamaaz/files/pdf/Diverse_Concept-Level_Features_for_Multi-Object_Classification.pdf},
-  keywords  = {conf-int}
+  keywords  = {frugal-supervised-learning,vision-language}
 }
 
 @inproceedings{ginsca15semfeat,
@@ -483,7 +458,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   year      = {2015},
   note      = {Best paper award},
   url_PDF   = {https://hal.science/hal-01172319/document},
-  keywords  = {conf-int}
+  keywords  = {frugal-supervised-learning,vision-language}
 }
 
 @inproceedings{popescu15privacy,
@@ -496,7 +471,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   address   = {Cham},
   pages     = {38--59},
   isbn      = {978-3-319-31456-3},
-  keywords  = {conf-int}
+  keywords  = {trustworthy-AI}
 }
 
 @inproceedings{vo2015effective_training_conv,
@@ -508,7 +483,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   url_PDF   = {https://hleborgne.github.io/files/vo2015cbmi.pdf},
   doi       = {10.1109/CBMI.2015.7153607},
   abstract  = {Deep convolutional networks have recently shown very interesting performance in a variety of computer vision tasks. Besides network architecture optimization, a key contribution to their success is the availability of training data. Network training is usually done with manually validated data but this approach has a significant cost and poses a scalability problem. Here we introduce an innovative pipeline that combines weakly-supervised image reranking methods and network fine-tuning to effectively train convolutional networks from noisy Web collections. We evaluate the proposed training method versus the conventional supervised training on cross-domain classification tasks. Results show that our method outperforms the conventional method in all of the three datasets. Our findings open opportunities for researchers and practitioners to use convolutional networks with inexpensive training cost.},
-  keywords  = {conf-int,frugal-supervised-learning}
+  keywords  = {frugal-supervised-learning}
 }
 
 @Article{gadeski2014gpu_dpm,
@@ -518,7 +493,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   journal   = {Journal of Real-Time Image Processing},
   publisher = {Springer Berlin Heidelberg},
   pages     = {1-13},
-  keywords  = {journal-int}
+  keywords  = {}
 }
 
 @inproceedings{znaidia2013icmr,
@@ -529,7 +504,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   year      = {2013},
   url_PDF   = {https://hleborgne.github.io/files/znaidia2013icmr.pdf},
   url_Slides= {https://hleborgne.github.io/files/znaidia2013icmr_slides.pdf},
-  keywords  = {conf-int}
+  keywords  = {}
 }
 
 @article{leborgne2012mtap,
@@ -542,7 +517,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   number    = {2},
   issn      = {1380-7501},
   doi       = {10.1007/s11042-010-0607-y},
-  keywords  = {journal-int}
+  keywords  = {}
 }
 
 @inproceedings{shabou2012cvpr,
@@ -554,7 +529,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   location  = {Providence, Rhode Island, USA},
   url_PDF   = {https://www.researchgate.net/profile/Herve-Le-Borgne/publication/229076368_Locality-constrained_and_spatially_regularized_coding_for_scene_categorization/links/0fcfd502d2f375470a000000/Locality-constrained-and-spatially-regularized-coding-for-scene-categorization.pdf},
   abstract  = {Improving coding and spatial pooling for bag-of-words based feature design have gained a lot of attention in recent works addressing object recognition and scene classification. Regarding the coding step in particular, properties such as sparsity, locality and saliency have been investigated. The main contribution of this work consists in taking into acount the local spatial context of an image into the usual coding strategies proposed in the state-of-the-art. For this purpose, given an imgae, dense local features are extracted and structured in a lattice. The latter is endowed with a neighborhood system and pairwise interactions. We propose a new objective function to encode local features, which preserves locality constraints both in the feature space and the spatial domain of the image. In addition, an appropriate efficient optimization algorithm is provided, inspired from the graph-cut framework. In conjunction with the maximum-pooling operation and the spatial pyramid matching, that reflects a global spatial layout, the proposed method improves the performances of several state-of-the-art coding schemes for scene classification on three publicly available benchmarks (UIUC 8-sport, Scene-15 and Caltech-101).},
-  keywords  = {conf-int}
+  keywords  = {}
   }
 
 @inproceedings{znaidia2012icpr,
@@ -565,7 +540,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   year      = {2012},
   url_PDF   = {https://hleborgne.github.io/files/znaidia2012icpr.pdf},
   abstract  = {We introduce the bag-of-multimedia-words model that tightly combines the heterogeneous information coming from the text and the pixel-based information of a multimedia document. The proposed multimedia feature generation process is generic for any multi-modality and aims at enriching a multimedia document description with compact and discriminative signatures well appropriate to linear classifiers. It is evaluated on the Pascal VOC 2007 classification challenge, outperforming the state-of-the-art bag-of-visual-words or bag-of-tag-words based classification approaches.},
-  keywords  = {conf-int}
+  keywords  = {vision-language}
 }
 
 @article{leborgne2007csvt,
@@ -579,7 +554,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   year     = {2007},
   doi      = {10.1109/TCSVT.2007.890635},
   url_PDF  = {https://hleborgne.github.io/files/leborgne2007mid_level_image_texture.pdf},
-  keywords = {journal-int,ica-image}
+  keywords = {ica-image}
 }
 
 
@@ -594,7 +569,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   publisher = {Elsevier},
   url_PDF   = {https://hleborgne.github.io/files/hlb2004ica_image.pdf},
   doi       = {10.1016/j.patrec.2003.09.011},
-  keywords  = {journal-int,ica-image}
+  keywords  = {ica-image}
 }
 
 @inproceedings{leborgne2001ica,
@@ -605,5 +580,5 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
   year      = {2001},
   url_PDF   = {https://hleborgne.github.io/files/hlb2001ica.pdf},
   abstract  = {Independent Component Analysis applied to a set of natural images provides band-pass-oriented filters, similar to simple cells of the primary visual cortex. We applied two types of pre-processing to the images, a low-pass and a whitening one in a multiresolution grid, and examine the properties of the detectors extracted by ICA. These detectors composed a new basis function set in which images are encoded. On one hand, the properties (sparseness and dispersal) of the resulting coding are compared for both pre-processing strategies. On the other hand, this new coding by independent features is used for discriminating natural images, that is a very challenging domain in image analysis and retrieval. We show that a criterion based on the dispersal property enhances the efficiency of the discrimination by selecting the most dispersed detectors coding the image database. This behaviour is well enhanced with whitened images.},
-  keywords  = {conf-int,ica-image}
+  keywords  = {ica-image}
 }
