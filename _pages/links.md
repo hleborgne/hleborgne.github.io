@@ -25,7 +25,7 @@ classes: wide
 ## Projects I worked on
 #### International
 - [VANGUARD](https://vanguard-horizon.eu/) (2023-2026) -- EU-Horizon
-- [AI4MEDIA](https://www.ai4media.eu/) (2020-2024) -- EU-H2020
+- [AI4MEDIA](https://www.ai4media.eu/) (2020-2024) -- EU-H2020  
 - [CPS4EU](https://cps4eu.eu/) (2019-2022) -- EU-H2020
 - [USEMP](https://usemp.eu) (2013 - 2016) -- EU-FP7 
 - AceMedia (2004 - 2006) -- EU-FP6 
@@ -81,19 +81,21 @@ classes: wide
 #### Post-doc
 - [Charles Villard](https://silvanosky.me/) (since 2024) with Mohamed Ouerfelli and Nicolas Granger
 - [Perla Doubinsky](https://scholar.google.com/citations?hl=en&user=1_JFcfkAAAAJ) (since 2024)
-- Omar Adjali (2022-2024) with Olivier Ferret and Sahar Ghannay
+- [Nikolaos Karaliolios](https://sites.google.com/view/nikolaoskaraliolios/) (2023-2024) with Florian Chabot
+- [Omar Adjali](https://scholar.google.fr/citations?hl=en&user=u72UIuEAAAAJ) (2022-2024) with Olivier Ferret and Sahar Ghannay
 - Aysun Sezer (2021-2024) with Nicolas Allezard, Roberto Miorelli and Julie Escoda
-- Omar Adjali (2018-2019) with Brigitte Grau, Romaric Besançon and Olivier Ferret
+- [Omar Adjali](https://scholar.google.fr/citations?hl=en&user=u72UIuEAAAAJ) (2018-2019) with Brigitte Grau, Romaric Besançon and Olivier Ferret
 - Hani Daher (2015-2016) with Romaric Besançon, Olivier Ferret and Anne-Laure Daquo
-- Phong Vo (2014-2016) with Adrian Popescu and Alexandru Ginsca
-- Aymen Shabou (2011-2012)
+- [Phong Vo](https://scholar.google.fr/citations?hl=en&user=s830TUYAAAAJ) (2014-2016) with Adrian Popescu and Alexandru Ginsca
+- [Aymen Shabou](https://scholar.google.fr/citations?hl=en&user=R_PQKZQAAAAJ) (2011-2012)
 
 #### Ph.D. students
+- Clément Cornet (since 2024) with Romaric Besançon
 - Alexandre Fournier-Montgieux (since 2023) with Adrian Popescu and Bertrand Luvison
-- Katia Benali (since 2023) with Marin Ferecatu
+- Katia Benali (since 2023) with Marin Ferecatu and Bianca Vieru
 - [Paul Grimal](https://scholar.google.com/citations?user=0ZcYaHMAAAAJ&hl=fr) (since 2022) with Julien Tourille and Olivier Ferret
 - Saad Lahlali (since 2022) with Nicolas Granger and Quoc Cuong Pham
-- Perla Doubinsky (2020-2024) with Nicolas Audebert and Michel Crucianu
+- [Perla Doubinsky](https://scholar.google.com/citations?user=1_JFcfkAAAAJ&hl=fr) (2020-2024) with Nicolas Audebert and Michel Crucianu
 - [Adrian Bojko](https://scholar.google.fr/citations?hl=fr&user=FniczgQAAAAJ) (2018-2022) with Romain Dupont and Mohamed Tamaazousti
 - Antoine Plumerault (2018-2020, defended in 2023) with Céline Hudelot
 - [Yannick Le Cacheux](https://scholar.google.fr/citations?user=eqBm0hYAAAAJ&hl=fr) (2017-2020) with Michel Crucianu
