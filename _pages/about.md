@@ -8,6 +8,11 @@ redirect_from:
 
 My research is in the area of **computer vision** with a particular interest on **relating visual and textual content** and **visual generative models**. I work at [CEA-List](https://list.cea.fr/en/), that is associated with [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en).
 
+## News 
+* [dec. 24] a [new version of TIAM](https://github.com/CEA-LIST/TIAMv2) has been released. The tool is easier to use and it includes [a standarized benchmark](https://github.com/CEA-LIST/TIAMv2/blob/release/doc/benchmarking.md) to compare your visual language model (VLM) to previous ones.
+* [dec. 24] Omar Adjali has a new paper accepted at ECIR 2025. With its previous EMNLP'24 article, they were the last papers submitted within the context of the [Meerqat project](https://www.meerqat.fr/)
+* [nov. 24] Alexandre Fournier-Montgieux and Saad Lahlali have (each) their papers accepted to WACV 2025. Congrat to them and (Dr) Mickael Soumm!
+
 ## Main public projects
 * the [STUDIES](https://anr.fr/Project-ANR-23-CE38-0014) project (2023-2027) aims at automatically conducting die studies at a large scale to better understand Ancient Numismatics.
 * the [SHARP](https://project.inria.fr/sharp/) project (PEPR IA 2023 - 2027) aims to design, analyze and deploy intrinsically frugal models (neural or not) able to achieve the versatility and performance of the best models while requiring only a vanishing fraction of the resources currently needed.
