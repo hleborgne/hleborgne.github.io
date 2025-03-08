@@ -13,7 +13,11 @@
   title     = {Fairer Analysis and Demographically Balanced Face Generation for Fairer Face Verification},
   booktitle = {Winter Conference on Applications of Computer Vision (WACV)},
   address   = {Tucson, Arizona, USA},
+  month     = {February},
   year      = {2025},
+  pages     = {2788-2798},
+  url_PDF   = {https://openaccess.thecvf.com/content/WACV2025/papers/Fournier-Montgieux_Fairer_Analysis_and_Demographically_Balanced_Face_Generation_for_Fairer_Face_WACV_2025_paper.pdf},
+  url_supp  = {https://openaccess.thecvf.com/content/WACV2025/supplemental/Fournier-Montgieux_Fairer_Analysis_and_WACV_2025_supplemental.pdf},
   url_code1 = {https://github.com/afm215/FaVGen},
   url_code2 = {https://github.com/MSoumm/FaVFA},
   abstract  = {Face recognition and verification are two computer vision tasks whose performances have advanced with the introduction of deep representations. 
@@ -26,7 +30,11 @@ However, ethical, legal, and technical challenges due to the sensitive nature of
   title     = {ALPI: Auto-Labeller with Proxy Injection for 3D Object Detection using 2D Labels Only},
   booktitle = {Winter Conference on Applications of Computer Vision (WACV)},
   address   = {Tucson, Arizona, USA},
+  month     = {February},
   year      = {2025},
+  pages     = {2185-2194},
+  url_PDF   = {https://openaccess.thecvf.com/content/WACV2025/papers/Lahlali_ALPI_Auto-Labeller_with_Proxy_Injection_for_3D_Object_Detection_using_WACV_2025_paper.pdf},
+  url_supp  = {https://openaccess.thecvf.com/content/WACV2025/supplemental/Lahlali_ALPI_Auto-Labeller_with_WACV_2025_supplemental.pdf},
   url_code  = {https://github.com/CEA-LIST/ALPI},
   abstract  = {3D object detection plays a crucial role in various applications such as autonomous vehicles, robotics and augmented reality. However, training 3D detectors requires a costly precise annotation, which is a hindrance to scaling annotation to large datasets.
 To address this challenge, we propose a weakly supervised 3D annotator that relies solely on 2D bounding box annotations from images, along with size priors. 
@@ -43,7 +51,7 @@ One major problem is that supervising a 3D detection model using only 2D boxes i
   url_PDF   = {https://aclanthology.org/2024.emnlp-main.922.pdf},
   url_code  = {https://github.com/OA256864/MiRAG},
   abstract  = {The Knowledge-Aware Visual Question Answering about Entity task aims to disambiguate entities using textual and visual information, as well as knowledge. It usually relies on two independent steps, information retrieval then reading comprehension, that do not benefit each other. Retrieval Augmented Generation (RAG) offers a solution by using generated answers as feedback for retrieval training. RAG usually relies solely on pseudo-relevant passages retrieved from external knowledge bases which can lead to ineffective answer generation. In this work, we propose a multi-level information RAG approach that enhances answer generation through entity retrieval and query expansion. We formulate a joint-training RAG loss such that answer generation is conditioned on both entity and passage retrievals. We show through experiments new state-of-the-art performance on the VIQuAE KB-VQA benchmark and demonstrate that our approach can help retrieve more actual relevant knowledge to generate accurate answers.},
-  keywords  = {kvqae}
+  keywords  = {kvqae,vision-language}
 }
 
 @inproceedings{cornet2024automaticdiestudiesancient,
@@ -95,7 +103,7 @@ One major problem is that supervising a 3D detection model using only 2D boxes i
   url_HAL  = {https://cea.hal.science/cea-04099065/file/HoDetec_article.pdf},
   url_PDF  = {https://arxiv.org/pdf/2401.10958},
   abstract = {This paper explores a semi-supervised object detection approach to detect thermal events on the internal wall of tokamaks. A huge amount of data is produced during an experimental campaign by the infrared (IR) viewing systems used to monitor the inner thermal shields during machine operation. The amount of data to be processed and analyzed is such that protecting the first wall is an overwhelming job. Automatizing this job with artificial intelligence (AI) is an attractive solution, but AI requires large labelled datasets that are not readily available for tokamak walls. Semi-supervised learning (SSL) is a possible solution to being able to train deep learning models with a small amount of labelled data and a large amount of unlabelled data. SSL is explored as a possible tool to rapidly adapt a model trained on an experimental campaign A of tokamak WEST to a new experimental campaign B by using labelled data from campaign A , a little labelled data from campaign B and a lot of unlabelled data from campaign B . Model performance is evaluated on two labelled datasets and two methods including semi-supervised learning. Semi-supervised learning increased the mAP metric by over six percentage points on the first smaller-scale database and over four percentage points on the second larger-scale dataset depending on the method employed.},
-  keywords = { frugal-supervised-learning}
+  keywords = {frugal-supervised-learning}
 }
 
 @inproceedings{karaliolios2023gpl,
@@ -140,7 +148,7 @@ One major problem is that supervising a 3D detection model using only 2D boxes i
   url_HAL   = {https://universite-paris-saclay.hal.science/cea-04172061/},
   url       = {https://dl.acm.org/doi/abs/10.1145/3591106.3592227},
   doi       = {10.1145/3591106.3592227},
-  abstract  = {Recent years have shown an unprecedented growth of interest in Vision-Language related tasks, with the need to address the inherent challenges of integrating linguistic and visual information to solve real-world applications. Such a typical task is Visual Question Answering (VQA), which aims at answering questions about visual content. The limitations of the VQA task in terms of question redundancy and poor linguistic variability encouraged researchers to propose Knowledge-aware Visual Question Answering tasks as a natural extension of VQA. In this paper, we tackle the KVQAE (Knowledge-based Visual Question Answering about named Entities) task, which proposes to answer questions about named entities defined in a knowledge base and grounded in a visual content. In particular, beside the textual and visual information, we propose to leverage the structural information extracted from syntactic dependency trees and external knowledge graphs to help answer questions about a large spectrum of entities of various types. Thus, by combining contextual and graph-based representations using Graph Convolutional Networks (GCNs), we are able to learn meaningful embeddings for information retrieval tasks. Experiments on the KVQAE public dataset show how our approach improves the state-of-the art baselines while demonstrating the interest of injecting external knowledge to enhance multimodal information retrieval. },
+  abstract  = {Recent years have shown an unprecedented growth of interest in Vision-Language related tasks, with the need to address the inherent challenges of integrating linguistic and visual information to solve real-world applications. Such a typical task is Visual Question Answering (VQA), which aims at answering questions about visual content. The limitations of the VQA task in terms of question redundancy and poor linguistic variability encouraged researchers to propose Knowledge-aware Visual Question Answering tasks as a natural extension of VQA. In this paper, we tackle the KVQAE (Knowledge-based Visual Question Answering about named Entities) task, which proposes to answer questions about named entities defined in a knowledge base and grounded in a visual content. In particular, beside the textual and visual information, we propose to leverage the structural information extracted from syntactic dependency trees and external knowledge graphs to help answer questions about a large spectrum of entities of various types. Thus, by combining contextual and graph-based representations using Graph Convolutional Networks (GCNs), we are able to learn meaningful embeddings for information retrieval tasks. Experiments on the KVQAE public dataset show how our approach improves the state-of-the art baselines while demonstrating the interest of injecting external knowledge to enhance multimodal information retrieval.},
   keywords  = {kvqae}
 }
 
@@ -418,7 +426,7 @@ freely available at https://github.com/PaulLerner/ViQuAE.},
  booktitle    = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
  year         = {2017},
  address      = {Honolulu},
- url_PDF      ={https://openaccess.thecvf.com/content_cvpr_2017/papers/Tamaazousti_MuCaLe-Net_Multi_Categorical-Level_CVPR_2017_paper.pdf},
+ url_PDF      = {https://openaccess.thecvf.com/content_cvpr_2017/papers/Tamaazousti_MuCaLe-Net_Multi_Categorical-Level_CVPR_2017_paper.pdf},
  url_supp     = {https://openaccess.thecvf.com/content_cvpr_2017/supplemental/Tamaazousti_MuCaLe-Net_Multi_Categorical-Level_2017_CVPR_supplemental.pdf},
  url_code     = {https://github.com/youssefTamaazousti/MuldipNet-tensorflow},
  doi          = {10.1109/CVPR.2017.561},
