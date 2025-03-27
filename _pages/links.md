@@ -11,6 +11,7 @@ classes: wide
 - a [list of summer school](https://github.com/sshkhr/awesome-mlss) in machine learning and related fields
 - a long list of [awesome public datasets](https://github.com/awesomedata/awesome-public-datasets) and [academid torrent](https://academictorrents.com/)
 - a list for [datasets for computer vision tasks](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm)
+- [Tips for releasing research code](https://github.com/paperswithcode/releasing-research-code)
 
 #### Less useful tools and resources
 - My [Erdős number is 4](https://www.csauthors.net/distance/herve-le-borgne/paul-erdos)
