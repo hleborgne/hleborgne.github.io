@@ -7,8 +7,8 @@ classes: wide
 ---
 
 ### Useful tools and resources
-- [AI conferences deadlines](https://nunoduarte.github.io/deadlines/)
-  - old: [AI conferences deadlines](https://aideadlin.es/?sub=ML%2CCV%2CNLP%2CRO%2CKR%2CDM) *i.e* relating to computer vision, machine learning, NLP, data mining, knowledge representation and robotics. 
+- [AI conferences deadlines](https://nunoduarte.github.io/deadlines/), in vision, NLP and robotics
+  -  (site down) [AI conferences deadlines](https://aideadlin.es/?sub=ML%2CCV%2CNLP%2CRO%2CKR%2CDM)
 - a [list of summer school](https://github.com/sshkhr/awesome-mlss) in machine learning and related fields
 - a long list of [awesome public datasets](https://github.com/awesomedata/awesome-public-datasets) and [academid torrent](https://academictorrents.com/)
 - a list for [datasets for computer vision tasks](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm)
