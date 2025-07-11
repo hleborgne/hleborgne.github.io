@@ -110,6 +110,7 @@ classes: wide
 - [Etienne Gadeski](https://scholar.google.fr/citations?hl=fr&user=wDJlmpkAAAAJ) (2014-2016) with Adrian Popescu
 
 #### Master M2
+- Biruk Abere Ambaw (2025, with Adrian Popescu)
 - Clément Cornet (2024, with Romaric Besançon)
 - Alexandre Fournier Montgieux (2023, with Adrian Popescu)
 - Paul Grimal (2022)
