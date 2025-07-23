@@ -15,7 +15,7 @@ Let us assume we have 5 approaches to compare over 4 benchmarks, with the follow
 ```
 import numpy as np
 
-IN=np.array([
+IN = np.array([
 [0.573, 67.2, 60.8, 68.2],
 [0.588, 69.6, 61.7, 70.6],
 [0.610, 67.7, 64.7, 71.1],
@@ -28,6 +28,6 @@ The approach on the first line is used as *a reference*. The *theoretical maxima
 ```
 from mNRG import mNRG
 
-print(100*mNRG(IN,np.array([1,100,100,100])))
+print( 100*mNRG(IN, np.array([1,100,100,100])) )
 ```
-The gives the relative merit score of each approach w.r.t the reference: `[ 0.  5.42  8.89 11.79 10.79]` (one chould keep even less significant digits for an article...).
+It gives the relative merit score of each approach w.r.t the reference (that has a gain of 0 over itself!): `[ 0.  5.42  8.89 11.79 10.79]` (one should keep even less significant digits for an article...).
