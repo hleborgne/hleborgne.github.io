@@ -82,7 +82,7 @@ classes: wide
 
 #### Post-doc
 - [Charles Villard](https://silvanosky.me/) (since 2024) with Mohamed Ouerfelli and Nicolas Granger
-- [Perla Doubinsky](https://scholar.google.com/citations?hl=en&user=1_JFcfkAAAAJ) (since 2024)
+- [Perla Doubinsky](https://scholar.google.com/citations?hl=en&user=1_JFcfkAAAAJ) (2024-2025)
 - [Nikolaos Karaliolios](https://sites.google.com/view/nikolaoskaraliolios/) (2023-2024) with Florian Chabot
 - [Omar Adjali](https://scholar.google.fr/citations?hl=en&user=u72UIuEAAAAJ) (2022-2024) with Olivier Ferret and Sahar Ghannay
 - Aysun Sezer (2021-2024) with Nicolas Allezard, Roberto Miorelli and Julie Escoda
@@ -95,7 +95,7 @@ classes: wide
 - Clément Cornet (since 2024) with Romaric Besançon
 - Alexandre Fournier-Montgieux (since 2023) with Adrian Popescu and Bertrand Luvison
 - Katia Benali (since 2023) with Marin Ferecatu and Bianca Vieru
-- [Paul Grimal](https://scholar.google.com/citations?user=0ZcYaHMAAAAJ&hl=fr) (since 2022) with Julien Tourille and Olivier Ferret
+- [Paul Grimal](https://scholar.google.com/citations?user=0ZcYaHMAAAAJ&hl=fr) (since 2022) with (Julien Tourille and) Olivier Ferret
 - Saad Lahlali (since 2022) with Nicolas Granger and Quoc Cuong Pham
 - [Perla Doubinsky](https://scholar.google.com/citations?user=1_JFcfkAAAAJ&hl=fr) (2020-2024) with Nicolas Audebert and Michel Crucianu
 - [Adrian Bojko](https://scholar.google.fr/citations?hl=fr&user=FniczgQAAAAJ) (2018-2022) with Romain Dupont and Mohamed Tamaazousti
@@ -105,8 +105,8 @@ classes: wide
 - Nhi Quynh Tran (2013-2017) with Michel Crucianu
 - [Amel Znaidia](https://scholar.google.fr/citations?hl=fr&user=zkVgSg8AAAAJ) (2010-2014) with Nikos Paragios and Céline Hudelot
 
-#### Engineer
-- Christian Staron (2021-2023) with Nicolas Allezard, Raphaël Mitteau and Erwan Grelier 
+#### Research Engineer
+- Christian Staron (2021-2023) with Nicolas Allezard, Erwan Grelier and Raphaël Mitteau
 - [Etienne Gadeski](https://scholar.google.fr/citations?hl=fr&user=wDJlmpkAAAAJ) (2014-2016) with Adrian Popescu
 
 #### Master M2
