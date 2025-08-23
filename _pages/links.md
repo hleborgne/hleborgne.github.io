@@ -17,10 +17,13 @@ classes: wide
 #### Less useful tools and resources
 - My [Erdős number is 4](https://www.csauthors.net/distance/herve-le-borgne/paul-erdos)
 
-### Bibliometrics and paper writting
+### Bibliometrics
 - *"When a measure becomes a target, it ceases to be a good measure"* ( [Goodhart/Campbell law a.k.a *Cobra effect*](https://svpow.com/2017/03/17/every-attempt-to-manage-academia-makes-it-worse/))
-- The CORE for [conferences](http://portal.core.edu.au/conf-ranks/) and (no longer updated since 2020) [journals](http://portal.core.edu.au/jnl-ranks/)
+- [Conference ranking](https://www.conferencelists.com/conference-rankings-core-qualis-era/) (CORE, Qualis & ERA)
+  - The CORE for [conferences](http://portal.core.edu.au/conf-ranks/) and (no longer updated since 2020) [journals](http://portal.core.edu.au/jnl-ranks/)
 - Google Scholar for [Englich top venue](https://scholar.google.com/citations?view_op=top_venues), [computer vision](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition), [AI and ML](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence), [NLP](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics), [multimedia](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_multimedia) and [data mining](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_datamininganalysis)
+
+### paper writting
 - Bill Freeman has great advices to [be successful with your thesis](http://people.csail.mit.edu/billf/talks/10minFreeman2013.pdf), on [how to do research](http://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf) and [how to write a paper for top-tier venues](https://billf.mit.edu/sites/default/files/documents/cvprPapers.pdf).
 - it is also nice to read [how to write a *bad* paper](http://people.csail.mit.edu/fredo/FredoBadWriting.pdf) by Fredo Durant, and the efficient advices from Simon Peyton Jones to [write a good research paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/How-to-write-a-great-research-paper.pdf).
 
