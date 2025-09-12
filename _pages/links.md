@@ -27,6 +27,7 @@ classes: wide
 - Bill Freeman has great advices to [be successful with your thesis](http://people.csail.mit.edu/billf/talks/10minFreeman2013.pdf), on [how to do research](http://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf) and [how to write a paper for top-tier venues](https://billf.mit.edu/sites/default/files/documents/cvprPapers.pdf).
 - it is also nice to read [how to write a *bad* paper](http://people.csail.mit.edu/fredo/FredoBadWriting.pdf) by Fredo Durant, and the efficient advices from Simon Peyton Jones to [write a good research paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/How-to-write-a-great-research-paper.pdf).
 - Devi Parikh proposed well-known good advice to [write a rebuttal](https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1)
+- Kate Saenko on [how to write the introduction](https://aykuterdem.github.io/resources/How_to_write_the_introduction.pdf) for a research paper
 
 ## Projects I worked on
 #### International
