@@ -9,6 +9,7 @@ redirect_from:
 My research is in the area of **computer vision** with a particular interest on **relating visual and textual content** and **visual generative models**. I work at [CEA-List](https://list.cea.fr/en/), that is associated with [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en).
 
 ## News
+* [oct 25] during his Master internship, Biruk Ambaw collaborated with Frederic Lin and [their paper](https://neurips.cc/virtual/2025/poster/121609) has just been accepted to NeurIPS 2025 (Datasets & Benchmarks Track). 
 * [sep 25] the article of Saad Lahlali and Alexandre Fournier-Montgieux on weakly supervised 3D object detection [MVAT](https://arxiv.org/abs/2509.07507) has been accepted to WACV 2026. Third top-tier conference for Saad: the PhD defense is expected for next december...
 * [mar 25] our [article](https://arxiv.org/abs/2503.15022) has been accepted to CVPR 2025. It extends the work of (Dr) Sandra Kara on object discovery in images to the case of 3D point clouds, which is the playground of Saad Lahlali. 
 * [dec. 24] a [new version of TIAM](https://github.com/CEA-LIST/TIAMv2) has been released. The tool is easier to use and it includes [a standarized benchmark](https://github.com/CEA-LIST/TIAMv2/blob/release/doc/benchmarking.md) to compare your visual language model (VLM) to previous ones.

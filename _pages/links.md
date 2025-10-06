@@ -74,7 +74,7 @@ classes: wide
 - [Raphaël Mitteau](https://scholar.google.com/citations?user=KY-WWgoAAAAJ&hl=fr)
 - [Bertrand Luvison](https://scholar.google.fr/citations?user=eunSkCQAAAAJ&hl=fr)
 
-#### Colleagues not at CEA (co-supervision)
+#### Not at CEA (co-supervision)
 - [Marin Ferecatu](https://cedric.cnam.fr/~ferecatu/pmwiki/Main/HomePage)
 - [Sahar Ghannay](https://saharghannay.github.io/)
 - [Céline Hudelot](https://hudelotc.github.io/)
@@ -98,10 +98,10 @@ classes: wide
 
 #### Ph.D. students
 - Clément Cornet (since 2024) with Romaric Besançon
-- Alexandre Fournier-Montgieux (since 2023) with Adrian Popescu and Bertrand Luvison
+- [Alexandre Fournier-Montgieux](https://scholar.google.com/citations?hl=en&user=xB1W174AAAAJ) (since 2023) with Adrian Popescu and Bertrand Luvison
 - Katia Benali (since 2023) with Marin Ferecatu and Bianca Vieru
 - [Paul Grimal](https://scholar.google.com/citations?user=0ZcYaHMAAAAJ&hl=fr) (since 2022) with (Julien Tourille and) Olivier Ferret
-- Saad Lahlali (since 2022) with Nicolas Granger and Quoc Cuong Pham
+- [Saad Lahlali](https://scholar.google.com/citations?hl=en&user=vu8b0JAAAAAJ) (since 2022) with Nicolas Granger and Quoc Cuong Pham
 - [Perla Doubinsky](https://scholar.google.com/citations?user=1_JFcfkAAAAJ&hl=fr) (2020-2024) with Nicolas Audebert and Michel Crucianu
 - [Adrian Bojko](https://scholar.google.fr/citations?hl=fr&user=FniczgQAAAAJ) (2018-2022) with Romain Dupont and Mohamed Tamaazousti
 - Antoine Plumerault (2018-2020, defended in 2023) with Céline Hudelot
@@ -115,7 +115,7 @@ classes: wide
 - [Etienne Gadeski](https://scholar.google.fr/citations?hl=fr&user=wDJlmpkAAAAJ) (2014-2016) with Adrian Popescu
 
 #### Master M2
-- Biruk Abere Ambaw (2025, with Adrian Popescu)
+- [Biruk Abere Ambaw](https://scholar.google.com/citations?user=oyqooEUAAAAJ&hl=en) (2025, with Adrian Popescu)
 - Clément Cornet (2024, with Romaric Besançon)
 - Alexandre Fournier Montgieux (2023, with Adrian Popescu)
 - Paul Grimal (2022)
