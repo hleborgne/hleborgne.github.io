@@ -8,6 +8,18 @@
   keywords  = {frugal-learning}
 }
 
+@inproceedings{lin2025camit,
+  title     = {CaMiT: A Time-Aware Car Model Dataset for Classification and Generation},
+  author    = {Fr{\'e}d{\'e}ric Lin and Biruk Abere Ambaw and Adrian Popescu and Hejer Ammar and Romaric Audigier and Herv{\'e} Le Borgne},
+  booktitle = {The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  year      = {2025},
+  url_PDF   = {https://openreview.net/forum?id=VfG4FBJ9Gc},
+  url_daatset = {https://huggingface.co/datasets/fredericlin/CaMiT},
+  url_code  = {https://github.com/lin-frederic/CaMiT},
+  abstract  = {AI systems must adapt to the evolving visual landscape, especially in domains where object appearance shifts over time. While prior work on time-aware vision models has primarily addressed commonsense-level categories, we introduce Car Models in Time (CaMiT). This fine-grained dataset captures the temporal evolution of this representative subset of technological artifacts. CaMiT includes 787K labeled samples of 190 car models (2007–2023) and 5.1M unlabeled samples (2005–2023), supporting supervised and self-supervised learning. We show that static pretraining on in-domain data achieves competitive performance with large-scale generalist models, offering a more resource-efficient solution. However, accuracy degrades when testing a year's models backward and forward in time. To address this, we evaluate CaMiT in a time-incremental classification setting, a realistic continual learning scenario with emerging, evolving, and disappearing classes. We investigate two mitigation strategies: time-incremental pretraining, which updates the backbone model, and time-incremental classifier learning, which updates the final classification layer, with positive results in both cases. Finally, we introduce time-aware image generation by consistently using temporal metadata during training. Results indicate improved realism compared to standard generation. CaMiT provides a rich resource for exploring temporal adaptation in a fine-grained visual context for discriminative and generative AI systems.},
+  keywords  = {generative-models,frugal-learning}
+}
+
 @inproceedings{lahlali2025xmod,
   author    = {Lahlali, Saad and Kara, Sandra and Ammar, Hejer and Chabot, Florian and Granger, Nicolas and Le Borgne, Herv{\'e} and Pham, Quoc-Cuong},
   booktitle = {Computer Vision and Pattern Recognition (CVPR)},
