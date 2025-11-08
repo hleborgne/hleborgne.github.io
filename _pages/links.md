@@ -73,6 +73,7 @@ classes: wide
 - [Quoc Cuong Pham](https://scholar.google.fr/citations?user=3rZlzWQAAAAJ&hl=fr)
 - [Raphaël Mitteau](https://scholar.google.com/citations?user=KY-WWgoAAAAJ&hl=fr)
 - [Bertrand Luvison](https://scholar.google.fr/citations?user=eunSkCQAAAAJ&hl=fr)
+- [Mickael Soumm](https://msoumm.github.io/) (now at Sorbonne Université)
 
 #### Not at CEA (co-supervision)
 - [Marin Ferecatu](https://cedric.cnam.fr/~ferecatu/pmwiki/Main/HomePage)
