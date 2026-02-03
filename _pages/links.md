@@ -98,11 +98,12 @@ classes: wide
 - [Aymen Shabou](https://scholar.google.fr/citations?hl=en&user=R_PQKZQAAAAJ) (2011-2012)
 
 #### Ph.D. students
+- Borachhun You (since 2026) with Aboubacar Tuo
 - Clément Cornet (since 2024) with Romaric Besançon
 - [Alexandre Fournier-Montgieux](https://scholar.google.com/citations?hl=en&user=xB1W174AAAAJ) (since 2023) with Adrian Popescu and Bertrand Luvison
 - Katia Benali (since 2023) with Marin Ferecatu and Bianca Vieru
-- [Paul Grimal](https://scholar.google.com/citations?user=0ZcYaHMAAAAJ&hl=fr) (since 2022) with (Julien Tourille and) Olivier Ferret
-- [Saad Lahlali](https://scholar.google.com/citations?hl=en&user=vu8b0JAAAAAJ) (since 2022) with Nicolas Granger and Quoc Cuong Pham
+- [Paul Grimal](https://scholar.google.com/citations?user=0ZcYaHMAAAAJ&hl=fr) (2022-2025) with (Julien Tourille and) Olivier Ferret
+- [Saad Lahlali](https://scholar.google.com/citations?hl=en&user=vu8b0JAAAAAJ) (2022-2025) with Nicolas Granger and Quoc Cuong Pham
 - [Perla Doubinsky](https://scholar.google.com/citations?user=1_JFcfkAAAAJ&hl=fr) (2020-2024) with Nicolas Audebert and Michel Crucianu
 - [Adrian Bojko](https://scholar.google.fr/citations?hl=fr&user=FniczgQAAAAJ) (2018-2022) with Romain Dupont and Mohamed Tamaazousti
 - Antoine Plumerault (2018-2020, defended in 2023) with Céline Hudelot
