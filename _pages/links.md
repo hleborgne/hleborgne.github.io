@@ -74,6 +74,7 @@ classes: wide
 - [Raphaël Mitteau](https://scholar.google.com/citations?user=KY-WWgoAAAAJ&hl=fr)
 - [Bertrand Luvison](https://scholar.google.fr/citations?user=eunSkCQAAAAJ&hl=fr)
 - [Mickael Soumm](https://msoumm.github.io/) (now at Sorbonne Université)
+- [Charles Villard](https://silvanosky.me/)
 
 #### Not at CEA (co-supervision)
 - [Marin Ferecatu](https://cedric.cnam.fr/~ferecatu/pmwiki/Main/HomePage)
@@ -87,7 +88,8 @@ classes: wide
 <!--- [Isabelle Bloch](http://perso.telecom-paristech.fr/bloch)-->
 
 #### Post-doc
-- [Charles Villard](https://silvanosky.me/) (since 2024) with Mohamed Ouerfelli and Nicolas Granger
+- [Tom Pégeot](https://scholar.google.com/citations?user=GiHroM4AAAAJ&hl=fr) (since 2026) with Romaric Besançon
+- [Charles Villard](https://silvanosky.me/) (2024-2026) with Mohamed Ouerfelli and Nicolas Granger
 - [Perla Doubinsky](https://scholar.google.com/citations?hl=en&user=1_JFcfkAAAAJ) (2024-2025)
 - [Nikolaos Karaliolios](https://sites.google.com/view/nikolaoskaraliolios/) (2023-2024) with Florian Chabot
 - [Omar Adjali](https://scholar.google.fr/citations?hl=en&user=u72UIuEAAAAJ) (2022-2024) with Olivier Ferret and Sahar Ghannay
