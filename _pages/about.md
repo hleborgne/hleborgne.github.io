@@ -38,9 +38,11 @@ Hervé Le Borgne is a researcher at the CEA-List since 2006, carrying out resear
 
 
 ### Positions and Education
-- since 2019: researcher at the [Laboratory of Semantic Analysis of Texts and Images](https://cea-list-lasti.github.io) (CEA-List)
-- 2010 - 2019: researcher at the [Vision and Content Engineering Laboratory](https://kalisteo.cea.fr/index.php/ai/) (CEA-List)
-- 2006 - 2010: researcher at the Laboratoire d'Ingenierie de la Connaissance Multimedia et Multilingue (CEA-List)
+- since 2025: research director at CEA
+- 2024: habilitation to supervise research (HDR)
+- since 2019: researcher at the [Laboratory of Semantic Analysis of Texts and Images](https://cea-list-lasti.github.io) (CEA List)
+- 2010 - 2019: researcher at the [Vision and Content Engineering Laboratory](https://kalisteo.cea.fr/index.php/ai/) (CEA List)
+- 2006 - 2010: researcher at the Laboratoire d'Ingenierie de la Connaissance Multimedia et Multilingue (CEA List)
 - 2004 - 2006: post doc with [Noel O'Connor](https://www.insight-centre.org/our-team/prof-noel-oconnor/) (CDVP, [Dublin City University](https://www.dcu.ie/), Ireland)
 - 2000 - 2004: Ph.D. (dir. [Anne Guérin-Dugué](https://www.gipsa-lab.grenoble-inp.fr/user/anne.guerin-dugue)) on [*Analyse de scènes naturelles par Composantes Indépendantes*](https://theses.hal.science/tel-00005925) ([INPG](https://www.grenoble-inp.fr/), Grenoble, France)
 - 1999 - 2000: MSc (sup. Anne Guérin-Dugué) on *Etude de la représentation corticale des images naturelles: application à l'indexation de bases d'images* ([INPG](https://www.grenoble-inp.fr/), Grenoble, France)
